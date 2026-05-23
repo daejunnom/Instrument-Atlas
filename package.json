@@ -25,5 +25,8 @@
     "music-production",
     "sound-design"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "fflate": "^0.8.3"
+  }
 }
