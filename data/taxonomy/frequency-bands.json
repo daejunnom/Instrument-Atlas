@@ -1,0 +1,69 @@
+{
+  "version": "0.1.0",
+  "unit": "Hz",
+  "bands": [
+    {
+      "id": "sub",
+      "label": "Sub",
+      "rangeHz": [
+        20,
+        60
+      ],
+      "description": "Very low sub-bass energy."
+    },
+    {
+      "id": "bass",
+      "label": "Bass",
+      "rangeHz": [
+        60,
+        250
+      ],
+      "description": "Low-end body and weight."
+    },
+    {
+      "id": "low_mid",
+      "label": "Low Mid",
+      "rangeHz": [
+        250,
+        500
+      ],
+      "description": "Warmth, thickness, and possible muddiness."
+    },
+    {
+      "id": "mid",
+      "label": "Mid",
+      "rangeHz": [
+        500,
+        2000
+      ],
+      "description": "Main body, tone, and musical information."
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "rangeHz": [
+        2000,
+        6000
+      ],
+      "description": "Attack, clarity, edge, and articulation."
+    },
+    {
+      "id": "brilliance",
+      "label": "Brilliance",
+      "rangeHz": [
+        6000,
+        12000
+      ],
+      "description": "Brightness, shimmer, and metallic detail."
+    },
+    {
+      "id": "air",
+      "label": "Air",
+      "rangeHz": [
+        12000,
+        20000
+      ],
+      "description": "Air, openness, and ultra-high-frequency detail."
+    }
+  ]
+}

@@ -24,6 +24,41 @@
   "packIds": [
     "core"
   ],
+  "frequencyProfile": {
+    "type": "estimated",
+    "confidence": "medium",
+    "fundamentalRangeHz": null,
+    "prominentBands": [],
+    "transientBands": [
+      {
+        "role": "tick",
+        "rangeHz": [
+          3000,
+          8000
+        ],
+        "description": "Stick attack and rhythmic definition"
+      }
+    ],
+    "noiseBands": [
+      {
+        "role": "brightness",
+        "rangeHz": [
+          6000,
+          12000
+        ],
+        "description": "Bright metallic noise and shimmer"
+      },
+      {
+        "role": "air",
+        "rangeHz": [
+          10000,
+          16000
+        ],
+        "description": "Air and high-frequency sheen"
+      }
+    ],
+    "notes": "Estimated mix-oriented profile. Closed and open hi-hats can differ significantly."
+  },
   "metadata": {
     "wikidataId": null,
     "sourceRefs": [],

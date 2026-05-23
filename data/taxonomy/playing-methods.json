@@ -1,0 +1,25 @@
+{
+  "version": "0.1.0",
+  "mode": "loose",
+  "recommendedValues": [
+    "Blown",
+    "Bowed",
+    "Filtered",
+    "Fingerpicked",
+    "Generative",
+    "Played",
+    "Plucked",
+    "Pressed",
+    "Recorded",
+    "Sampled",
+    "Scratched",
+    "Shaken",
+    "Slammed",
+    "Spoken",
+    "Struck",
+    "Strummed",
+    "Sung",
+    "Sustained",
+    "Triggered"
+  ]
+}

@@ -25,6 +25,44 @@
   "packIds": [
     "core"
   ],
+  "frequencyProfile": {
+    "type": "estimated",
+    "confidence": "medium",
+    "fundamentalRangeHz": [
+      40,
+      120
+    ],
+    "prominentBands": [
+      {
+        "role": "sub",
+        "rangeHz": [
+          40,
+          80
+        ],
+        "description": "Low-end weight and thump"
+      },
+      {
+        "role": "body",
+        "rangeHz": [
+          80,
+          180
+        ],
+        "description": "Main body of the kick"
+      }
+    ],
+    "transientBands": [
+      {
+        "role": "attack",
+        "rangeHz": [
+          2000,
+          5000
+        ],
+        "description": "Click, beater attack, and definition"
+      }
+    ],
+    "noiseBands": [],
+    "notes": "Estimated mix-oriented profile. Actual values vary by drum size, tuning, sample, and processing."
+  },
   "metadata": {
     "wikidataId": null,
     "sourceRefs": [],
