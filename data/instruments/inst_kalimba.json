@@ -1,39 +1,41 @@
-{
-  "id": "inst_kalimba",
-  "family": "World / Traditional",
-  "subfamily": null,
-  "tags": [
-    "mallet",
-    "tines",
-    "box",
-    "warm pitch",
-    "cosy"
-  ],
-  "regions": [
-    "Africa",
-    "Global"
-  ],
-  "materials": [
-    "Metal Tines",
-    "Wood"
-  ],
-  "playingMethods": [
-    "Plucked with Thumbs"
-  ],
-  "isPercussive": true,
-  "isPitched": true,
-  "pitchRange": "C4-C6",
-  "similarInstruments": [
-    "inst_triangle",
-    "inst_grand_piano"
-  ],
-  "minorInstrumentScore": 0.85,
-  "packIds": [
-    "world-south-asia"
-  ],
-  "metadata": {
-    "wikidataId": null,
-    "sourceRefs": [],
-    "license": "CC0"
-  }
+﻿{
+    "id":  "inst_kalimba",
+    "family":  "World / Traditional",
+    "subfamily":  null,
+    "tags":  [
+                 "mallet",
+                 "tines",
+                 "box",
+                 "warm pitch",
+                 "cosy"
+             ],
+    "regions":  [
+                    "Africa",
+                    "Global"
+                ],
+    "materials":  [
+                      "Metal Tines",
+                      "Wood"
+                  ],
+    "playingMethods":  [
+                           "Plucked with Thumbs"
+                       ],
+    "isPercussive":  true,
+    "isPitched":  true,
+    "pitchRange":  "C4-C6",
+    "similarInstruments":  [
+                               "inst_triangle",
+                               "inst_grand_piano"
+                           ],
+    "minorInstrumentScore":  0.85,
+    "packIds":  [
+                    "world-africa"
+                ],
+    "metadata":  {
+                     "wikidataId":  null,
+                     "sourceRefs":  [
+
+                                    ],
+                     "license":  "CC0"
+                 }
 }

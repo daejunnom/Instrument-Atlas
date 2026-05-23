@@ -8,13 +8,7 @@
   "recommended": false,
   "sortOrder": 5,
   "instrumentIds": [
-    "inst_bagpipes",
-    "inst_balalaika",
-    "inst_berimbau",
-    "inst_bouzouki",
-    "inst_didgeridoo",
-    "inst_harmonica",
-    "inst_hurdy_gurdy",
-    "inst_kalimba"
+    "inst_sitar",
+    "inst_tabla"
   ]
 }

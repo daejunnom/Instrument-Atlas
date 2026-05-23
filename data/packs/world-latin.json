@@ -1,0 +1,13 @@
+{
+  "id": "world-latin",
+  "level": 2,
+  "title": "World: Latin America",
+  "description": "Traditional and regional instruments from Latin America.",
+  "category": "standard",
+  "defaultEnabled": false,
+  "recommended": false,
+  "sortOrder": 8,
+  "instrumentIds": [
+    "inst_berimbau"
+  ]
+}

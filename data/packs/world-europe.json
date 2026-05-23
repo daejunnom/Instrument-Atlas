@@ -1,0 +1,17 @@
+{
+  "id": "world-europe",
+  "level": 2,
+  "title": "World: Europe",
+  "description": "Traditional and regional instruments from Europe.",
+  "category": "standard",
+  "defaultEnabled": false,
+  "recommended": false,
+  "sortOrder": 6,
+  "instrumentIds": [
+    "inst_bagpipes",
+    "inst_balalaika",
+    "inst_bouzouki",
+    "inst_harmonica",
+    "inst_hurdy_gurdy"
+  ]
+}

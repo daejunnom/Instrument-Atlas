@@ -1,0 +1,13 @@
+{
+  "id": "world-oceania",
+  "level": 2,
+  "title": "World: Oceania",
+  "description": "Traditional and regional instruments from Oceania.",
+  "category": "standard",
+  "defaultEnabled": false,
+  "recommended": false,
+  "sortOrder": 9,
+  "instrumentIds": [
+    "inst_didgeridoo"
+  ]
+}

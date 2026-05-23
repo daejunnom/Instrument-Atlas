@@ -6,7 +6,7 @@
   "category": "extended",
   "defaultEnabled": false,
   "recommended": false,
-  "sortOrder": 8,
+  "sortOrder": 90,
   "instrumentIds": [
     "inst_agogo",
     "inst_break_drum"

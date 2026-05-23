@@ -6,7 +6,7 @@
   "category": "standard",
   "defaultEnabled": false,
   "recommended": true,
-  "sortOrder": 6,
+  "sortOrder": 20,
   "instrumentIds": [
     "inst_door_slam",
     "inst_ocean_waves",

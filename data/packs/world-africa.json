@@ -1,0 +1,13 @@
+{
+  "id": "world-africa",
+  "level": 2,
+  "title": "World: Africa",
+  "description": "Traditional and regional instruments from Africa.",
+  "category": "standard",
+  "defaultEnabled": false,
+  "recommended": false,
+  "sortOrder": 7,
+  "instrumentIds": [
+    "inst_kalimba"
+  ]
+}

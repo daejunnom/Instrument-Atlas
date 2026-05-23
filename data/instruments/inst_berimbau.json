@@ -1,39 +1,41 @@
-{
-  "id": "inst_berimbau",
-  "family": "World / Traditional",
-  "subfamily": null,
-  "tags": [
-    "string",
-    "percussion",
-    "buzzy",
-    "capoeira",
-    "brazilian"
-  ],
-  "regions": [
-    "Brazil",
-    "Angola"
-  ],
-  "materials": [
-    "Biriba Wood bow",
-    "Steel string",
-    "Gourd"
-  ],
-  "playingMethods": [
-    "Struck with wooden stick, metallic stone bend"
-  ],
-  "isPercussive": true,
-  "isPitched": true,
-  "pitchRange": "Approx F2-G3 (High/Low pitches)",
-  "similarInstruments": [],
-  "minorInstrumentScore": 0.9,
-  "packIds": [
-    "world-south-asia"
-  ],
-  "metadata": {
-    "wikidataId": "Q223696",
-    "sourceRefs": [
-      "https://www.wikidata.org/wiki/Q223696"
-    ],
-    "license": "Creative Commons CC0"
-  }
+﻿{
+    "id":  "inst_berimbau",
+    "family":  "World / Traditional",
+    "subfamily":  null,
+    "tags":  [
+                 "string",
+                 "percussion",
+                 "buzzy",
+                 "capoeira",
+                 "brazilian"
+             ],
+    "regions":  [
+                    "Brazil",
+                    "Angola"
+                ],
+    "materials":  [
+                      "Biriba Wood bow",
+                      "Steel string",
+                      "Gourd"
+                  ],
+    "playingMethods":  [
+                           "Struck with wooden stick, metallic stone bend"
+                       ],
+    "isPercussive":  true,
+    "isPitched":  true,
+    "pitchRange":  "Approx F2-G3 (High/Low pitches)",
+    "similarInstruments":  [
+
+                           ],
+    "minorInstrumentScore":  0.9,
+    "packIds":  [
+                    "world-latin"
+                ],
+    "metadata":  {
+                     "wikidataId":  "Q223696",
+                     "sourceRefs":  [
+                                        "https://www.wikidata.org/wiki/Q223696"
+                                    ],
+                     "license":  "Creative Commons CC0"
+                 }
 }

@@ -1,41 +1,41 @@
-{
-  "id": "inst_bagpipes",
-  "family": "World / Traditional",
-  "subfamily": null,
-  "tags": [
-    "wind",
-    "drone",
-    "loud",
-    "celtic",
-    "scottish"
-  ],
-  "regions": [
-    "Scotland",
-    "Europe"
-  ],
-  "materials": [
-    "Leather bag",
-    "Wood chanter",
-    "Reeds"
-  ],
-  "playingMethods": [
-    "Squeezed bag and blown"
-  ],
-  "isPercussive": false,
-  "isPitched": true,
-  "pitchRange": "Bb4-B5",
-  "similarInstruments": [
-    "inst_accordion"
-  ],
-  "minorInstrumentScore": 0.8,
-  "packIds": [
-    "world-south-asia"
-  ],
-  "metadata": {
-    "wikidataId": "Q48429",
-    "sourceRefs": [
-      "https://www.wikidata.org/wiki/Q48429"
-    ],
-    "license": "Creative Commons CC0"
-  }
+﻿{
+    "id":  "inst_bagpipes",
+    "family":  "World / Traditional",
+    "subfamily":  null,
+    "tags":  [
+                 "wind",
+                 "drone",
+                 "loud",
+                 "celtic",
+                 "scottish"
+             ],
+    "regions":  [
+                    "Scotland",
+                    "Europe"
+                ],
+    "materials":  [
+                      "Leather bag",
+                      "Wood chanter",
+                      "Reeds"
+                  ],
+    "playingMethods":  [
+                           "Squeezed bag and blown"
+                       ],
+    "isPercussive":  false,
+    "isPitched":  true,
+    "pitchRange":  "Bb4-B5",
+    "similarInstruments":  [
+                               "inst_accordion"
+                           ],
+    "minorInstrumentScore":  0.8,
+    "packIds":  [
+                    "world-europe"
+                ],
+    "metadata":  {
+                     "wikidataId":  "Q48429",
+                     "sourceRefs":  [
+                                        "https://www.wikidata.org/wiki/Q48429"
+                                    ],
+                     "license":  "Creative Commons CC0"
+                 }
 }

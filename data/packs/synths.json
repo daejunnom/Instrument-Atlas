@@ -6,7 +6,7 @@
   "category": "standard",
   "defaultEnabled": false,
   "recommended": true,
-  "sortOrder": 7,
+  "sortOrder": 30,
   "instrumentIds": [
     "inst_modular_synth",
     "inst_sub_bass",
