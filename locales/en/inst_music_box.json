@@ -1,0 +1,16 @@
+{
+  "id": "inst_music_box",
+  "name": "Music Box",
+  "aliases": [
+    "Music Box",
+    "musical box",
+    "carillon box"
+  ],
+  "searchKeywords": [
+    "music box",
+    "orgel",
+    "오르골",
+    "태엽소리"
+  ],
+  "description": "An automatic musical instrument in a box that produces musical notes by using a set of pins placed on a revolving cylinder."
+}

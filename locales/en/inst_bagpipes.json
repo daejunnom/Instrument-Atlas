@@ -1,0 +1,17 @@
+{
+  "id": "inst_bagpipes",
+  "name": "Bagpipes",
+  "aliases": [
+    "Bagpipes",
+    "bagpipes",
+    "scottish pipes",
+    "great highland bagpipe"
+  ],
+  "searchKeywords": [
+    "bagpipes",
+    "scotland",
+    "celtic",
+    "백파이프"
+  ],
+  "description": "A class of wind instrument, using enclosed reeds fed from a constant reservoir of air in the form of a bag."
+}

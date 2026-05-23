@@ -1,0 +1,18 @@
+{
+  "id": "inst_double_bass",
+  "name": "Double Bass",
+  "aliases": [
+    "Double Bass",
+    "double bass",
+    "contrabass",
+    "upright bass",
+    "standup bass"
+  ],
+  "searchKeywords": [
+    "double bass",
+    "contrabass",
+    "콘트라베이스",
+    "더블베이스"
+  ],
+  "description": "The largest and lowest-pitched bowed string instrument in the modern orchestral string family."
+}

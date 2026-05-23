@@ -1,0 +1,16 @@
+{
+  "id": "inst_grand_piano",
+  "name": "Grand Piano",
+  "aliases": [
+    "Grand Piano",
+    "piano",
+    "grand piano",
+    "스튜디오 피아노"
+  ],
+  "searchKeywords": [
+    "piano",
+    "keyboard",
+    "hammer percussion"
+  ],
+  "description": "A large acoustic piano where the frame and strings are horizontal."
+}

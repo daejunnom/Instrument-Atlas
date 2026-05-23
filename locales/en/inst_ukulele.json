@@ -1,0 +1,17 @@
+{
+  "id": "inst_ukulele",
+  "name": "Ukulele",
+  "aliases": [
+    "Ukulele",
+    "ukelele",
+    "hawaiian guitar",
+    "uke"
+  ],
+  "searchKeywords": [
+    "ukulele",
+    "hawaiian",
+    "우쿨렐레",
+    "우쿠렐레"
+  ],
+  "description": "A member of the lute family of instruments of Hawaiian origin, typically using four nylon strings."
+}

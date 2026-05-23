@@ -1,0 +1,15 @@
+{
+  "id": "inst_grand_piano",
+  "name": "피아노",
+  "aliases": [
+    "그랜드 피아노",
+    "건반",
+    "어쿠스틱 피아노"
+  ],
+  "searchKeywords": [
+    "piano",
+    "keyboard",
+    "hammer percussion"
+  ],
+  "description": ""
+}

@@ -1,0 +1,16 @@
+{
+  "id": "inst_acoustic_guitar",
+  "name": "어쿠스틱 기타",
+  "aliases": [
+    "통기타",
+    "어쿠",
+    "포크기타"
+  ],
+  "searchKeywords": [
+    "guitar",
+    "acoustic",
+    "기타",
+    "어쿠스틱"
+  ],
+  "description": ""
+}

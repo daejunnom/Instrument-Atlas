@@ -1,0 +1,15 @@
+{
+  "id": "inst_choir",
+  "name": "합창단",
+  "aliases": [
+    "코러스 콰이어",
+    "시네마틱 합창"
+  ],
+  "searchKeywords": [
+    "choir",
+    "chorus",
+    "합창",
+    "콰이어"
+  ],
+  "description": ""
+}

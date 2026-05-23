@@ -1,0 +1,16 @@
+{
+  "id": "inst_theremin",
+  "name": "Theremin",
+  "aliases": [
+    "Theremin",
+    "thereminvox",
+    "etherphone"
+  ],
+  "searchKeywords": [
+    "theremin",
+    "spooky noise",
+    "테레민",
+    "우주소리"
+  ],
+  "description": "An early electronic musical instrument controlled without physical contact by the thereminist."
+}

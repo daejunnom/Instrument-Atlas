@@ -1,0 +1,16 @@
+{
+  "id": "inst_bassoon",
+  "name": "Bassoon",
+  "aliases": [
+    "Bassoon",
+    "bassoon",
+    "fagotto"
+  ],
+  "searchKeywords": [
+    "bassoon",
+    "fagotto",
+    "바순",
+    "파고트"
+  ],
+  "description": "A woodwind instrument in the double reed family, known for its warm, dark, and highly expressive low register."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "inst_oboe",
+  "name": "Oboe",
+  "aliases": [
+    "Oboe",
+    "oboe",
+    "hautbois"
+  ],
+  "searchKeywords": [
+    "oboe",
+    "double reed",
+    "오보에"
+  ],
+  "description": "A family of double-reed woodwind instruments with a conical bore, widely used in classical orchestras."
+}

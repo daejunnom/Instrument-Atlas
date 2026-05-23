@@ -1,0 +1,16 @@
+{
+  "id": "inst_door_slam",
+  "name": "Door Slam",
+  "aliases": [
+    "Door Slam",
+    "door screeching slam",
+    "heavy wood close"
+  ],
+  "searchKeywords": [
+    "door slam",
+    "shut close",
+    "문기",
+    "문소리"
+  ],
+  "description": "Impact metallic/wooden foley sound caused by locking or shutting a room partition abruptly."
+}
