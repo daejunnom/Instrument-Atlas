@@ -1,42 +1,42 @@
-﻿{
-    "id":  "inst_tabla",
-    "family":  "World / Traditional",
-    "subfamily":  null,
-    "tags":  [
-                 "percussion",
-                 "handdrum",
-                 "bendy-bass",
-                 "complex",
-                 "indian"
-             ],
-    "regions":  [
-                    "India",
-                    "South Asia"
-                ],
-    "materials":  [
-                      "Copper Shells",
-                      "Clay",
-                      "Goatskin"
-                  ],
-    "playingMethods":  [
-                           "Struck with fingers and palms"
-                       ],
-    "isPercussive":  true,
-    "isPitched":  true,
-    "pitchRange":  null,
-    "similarInstruments":  [
-                               "inst_congas",
-                               "inst_bongos"
-                           ],
-    "minorInstrumentScore":  0.8,
-    "packIds":  [
-                    "world-south-asia"
-                ],
-    "metadata":  {
-                     "wikidataId":  "Q251341",
-                     "sourceRefs":  [
-                                        "https://www.wikidata.org/wiki/Q251341"
-                                    ],
-                     "license":  "Creative Commons CC0"
-                 }
+{
+  "id": "inst_tabla",
+  "family": "World / Traditional",
+  "subfamily": null,
+  "tags": [
+    "percussion",
+    "handdrum",
+    "bendy-bass",
+    "complex",
+    "indian"
+  ],
+  "regions": [
+    "India",
+    "South Asia"
+  ],
+  "materials": [
+    "Copper Shells",
+    "Clay",
+    "Goatskin"
+  ],
+  "playingMethods": [
+    "Struck with fingers and palms"
+  ],
+  "isPercussive": true,
+  "isPitched": true,
+  "pitchRange": null,
+  "similarInstruments": [
+    "inst_congas",
+    "inst_bongos"
+  ],
+  "minorInstrumentScore": 0.8,
+  "packIds": [
+    "world-south-asia"
+  ],
+  "metadata": {
+    "wikidataId": "Q251341",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q251341"
+    ],
+    "license": "Creative Commons CC0"
+  }
 }

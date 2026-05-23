@@ -1,40 +1,40 @@
-﻿{
-    "id":  "inst_bouzouki",
-    "family":  "World / Traditional",
-    "subfamily":  null,
-    "tags":  [
-                 "string",
-                 "pluck",
-                 "metallic resonance",
-                 "greek",
-                 "mediterranean"
-             ],
-    "regions":  [
-                    "Greece"
-                ],
-    "materials":  [
-                      "Wood bowl-back",
-                      "Steel strings"
-                  ],
-    "playingMethods":  [
-                           "Plucked with plectrum"
-                       ],
-    "isPercussive":  false,
-    "isPitched":  true,
-    "pitchRange":  "C3-D6",
-    "similarInstruments":  [
-                               "inst_mandolin",
-                               "inst_acoustic_guitar"
-                           ],
-    "minorInstrumentScore":  0.8,
-    "packIds":  [
-                    "world-europe"
-                ],
-    "metadata":  {
-                     "wikidataId":  "Q331326",
-                     "sourceRefs":  [
-                                        "https://www.wikidata.org/wiki/Q331326"
-                                    ],
-                     "license":  "Creative Commons CC0"
-                 }
+{
+  "id": "inst_bouzouki",
+  "family": "World / Traditional",
+  "subfamily": null,
+  "tags": [
+    "string",
+    "pluck",
+    "metallic resonance",
+    "greek",
+    "mediterranean"
+  ],
+  "regions": [
+    "Greece"
+  ],
+  "materials": [
+    "Wood bowl-back",
+    "Steel strings"
+  ],
+  "playingMethods": [
+    "Plucked with plectrum"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": "C3-D6",
+  "similarInstruments": [
+    "inst_mandolin",
+    "inst_acoustic_guitar"
+  ],
+  "minorInstrumentScore": 0.8,
+  "packIds": [
+    "world-europe"
+  ],
+  "metadata": {
+    "wikidataId": "Q331326",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q331326"
+    ],
+    "license": "Creative Commons CC0"
+  }
 }

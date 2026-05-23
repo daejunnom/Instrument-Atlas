@@ -1,39 +1,37 @@
-﻿{
-    "id":  "inst_didgeridoo",
-    "family":  "World / Traditional",
-    "subfamily":  null,
-    "tags":  [
-                 "wind",
-                 "drone",
-                 "rhythmic",
-                 "aboriginal",
-                 "hypnotic"
-             ],
-    "regions":  [
-                    "Australia"
-                ],
-    "materials":  [
-                      "Eucalyptus Wood",
-                      "Beeswax"
-                  ],
-    "playingMethods":  [
-                           "Blown with circular breathing"
-                       ],
-    "isPercussive":  true,
-    "isPitched":  false,
-    "pitchRange":  "Drone-C2",
-    "similarInstruments":  [
-
-                           ],
-    "minorInstrumentScore":  0.9,
-    "packIds":  [
-                    "world-oceania"
-                ],
-    "metadata":  {
-                     "wikidataId":  "Q189280",
-                     "sourceRefs":  [
-                                        "https://www.wikidata.org/wiki/Q189280"
-                                    ],
-                     "license":  "Public Domain"
-                 }
+{
+  "id": "inst_didgeridoo",
+  "family": "World / Traditional",
+  "subfamily": null,
+  "tags": [
+    "wind",
+    "drone",
+    "rhythmic",
+    "aboriginal",
+    "hypnotic"
+  ],
+  "regions": [
+    "Australia"
+  ],
+  "materials": [
+    "Eucalyptus Wood",
+    "Beeswax"
+  ],
+  "playingMethods": [
+    "Blown with circular breathing"
+  ],
+  "isPercussive": true,
+  "isPitched": false,
+  "pitchRange": "Drone-C2",
+  "similarInstruments": [],
+  "minorInstrumentScore": 0.9,
+  "packIds": [
+    "world-oceania"
+  ],
+  "metadata": {
+    "wikidataId": "Q189280",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q189280"
+    ],
+    "license": "Public Domain"
+  }
 }

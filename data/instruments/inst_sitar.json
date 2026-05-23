@@ -1,42 +1,42 @@
-﻿{
-    "id":  "inst_sitar",
-    "family":  "World / Traditional",
-    "subfamily":  null,
-    "tags":  [
-                 "string",
-                 "pluck",
-                 "buzzy",
-                 "drone",
-                 "indian",
-                 "psychedelic"
-             ],
-    "regions":  [
-                    "India",
-                    "South Asia"
-                ],
-    "materials":  [
-                      "Gourd Resonator",
-                      "Teak Wood",
-                      "Steel Strings"
-                  ],
-    "playingMethods":  [
-                           "Plucked with Mezrab wire pick"
-                       ],
-    "isPercussive":  false,
-    "isPitched":  true,
-    "pitchRange":  "C3-F6",
-    "similarInstruments":  [
-                               "inst_acoustic_guitar"
-                           ],
-    "minorInstrumentScore":  0.75,
-    "packIds":  [
-                    "world-south-asia"
-                ],
-    "metadata":  {
-                     "wikidataId":  "Q181313",
-                     "sourceRefs":  [
-                                        "https://www.wikidata.org/wiki/Q181313"
-                                    ],
-                     "license":  "Creative Commons CC0"
-                 }
+{
+  "id": "inst_sitar",
+  "family": "World / Traditional",
+  "subfamily": null,
+  "tags": [
+    "string",
+    "pluck",
+    "buzzy",
+    "drone",
+    "indian",
+    "psychedelic"
+  ],
+  "regions": [
+    "India",
+    "South Asia"
+  ],
+  "materials": [
+    "Gourd Resonator",
+    "Teak Wood",
+    "Steel Strings"
+  ],
+  "playingMethods": [
+    "Plucked with Mezrab wire pick"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": "C3-F6",
+  "similarInstruments": [
+    "inst_acoustic_guitar"
+  ],
+  "minorInstrumentScore": 0.75,
+  "packIds": [
+    "world-south-asia"
+  ],
+  "metadata": {
+    "wikidataId": "Q181313",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q181313"
+    ],
+    "license": "Creative Commons CC0"
+  }
 }
