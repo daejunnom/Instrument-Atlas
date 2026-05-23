@@ -1,0 +1,26 @@
+Instrument Atlas Data License
+
+The structured data files in this repository are dedicated to the public domain
+under the Creative Commons CC0 1.0 Universal Public Domain Dedication.
+
+This applies to:
+
+- data/
+- locales/
+- generated catalog data under dist/
+- generated release package contents under release/
+
+This does not apply to:
+
+- scripts/
+- package.json
+- package-lock.json
+- README.md
+- repository configuration files
+- documentation unless explicitly stated otherwise
+
+The full CC0 1.0 Universal legal text is available at:
+
+https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+SPDX-License-Identifier: CC0-1.0

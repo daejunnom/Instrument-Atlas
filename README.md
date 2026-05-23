@@ -471,16 +471,21 @@ npm run validate
 
 ## Data and code license
 
-Recommended license structure:
+Instrument Atlas uses a split license structure:
 
 ```txt
-Code and scripts: MIT
-Data: CC0 or CC BY 4.0
+Code, scripts, and tooling: MIT License
+Structured catalog data: CC0 1.0 Universal
 ```
 
-CC0 is recommended if maximum reuse is the priority.
+See:
 
-CC BY 4.0 is recommended if attribution and contributor/source visibility are important.
+```txt
+LICENSE
+DATA-LICENSE
+```
+
+The structured data in `data/`, `locales/`, and generated catalog artifacts is dedicated under CC0 1.0 Universal to make reuse as easy as possible for applications, tools, datasets, and research projects.
 
 Actual audio samples should not be included in this repository.
 

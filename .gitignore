@@ -29,6 +29,7 @@ Thumbs.db
 _import/
 _local/
 project_bundle.txt
+*project_bundle.txt
 package-bundle.txt
 
 # Audio sample files should not be stored in this repository
