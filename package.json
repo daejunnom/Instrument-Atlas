@@ -1,0 +1,25 @@
+{
+  "name": "instrument-atlas",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "A multilingual metadata catalog for musical instruments and sound sources.",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "build": "node scripts/build.mjs",
+    "package": "node scripts/package-release.mjs"
+  },
+  "keywords": [
+    "music",
+    "audio",
+    "instruments",
+    "metadata",
+    "catalog",
+    "multilingual",
+    "json",
+    "dataset",
+    "music-production",
+    "sound-design"
+  ],
+  "license": "MIT"
+}
