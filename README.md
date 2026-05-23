@@ -2,23 +2,21 @@
 
 Instrument Atlas is a multilingual metadata catalog for musical instruments and sound sources.
 
-It is designed to provide structured, app-friendly instrument data for music generation tools, video editors, audio editors, sample browsers, educational tools, and other creative applications.
+It provides structured, app-friendly JSON data for music generation tools, video editors, audio editors, sample browsers, educational tools, search systems, and other creative applications.
 
-Instrument Atlas is not an audio sample repository. It does not store actual sound files. Instead, it focuses on structured metadata such as instrument names, aliases, multilingual labels, categories, regions, materials, playing methods, search tags, related instruments, rarity information, and source/license metadata.
+Instrument Atlas is not an audio sample repository. It does not store sound files. Instead, it focuses on metadata such as instrument names, aliases, multilingual labels, categories, packs, regions, materials, playing methods, search keywords, related instruments, rarity information, optional frequency profiles, and source/license metadata.
 
 ## Goals
-
-The goal of this project is to provide a reusable instrument metadata catalog that can be shared across multiple applications.
 
 Instrument Atlas aims to help applications:
 
 - Normalize instrument names and aliases
 - Support multilingual instrument search
-- Group instruments into useful packs
+- Group instruments and sound sources into useful packs
 - Provide structured metadata for UI, search, filtering, and recommendation features
 - Include both common and minor instruments
 - Keep source data easy to review and contribute to
-- Provide runtime-friendly release artifacts for applications
+- Generate runtime-friendly release artifacts for applications
 
 ## What this project is
 
@@ -39,8 +37,107 @@ Instrument Atlas is not:
 - A VST/plugin collection
 - A loop or preset marketplace
 - A replacement for licensed sample databases
+- An audio isolation or stem separation engine
 
 Actual audio files should not be added to this repository.
+
+## Current status
+
+Instrument Atlas is in early alpha development.
+
+Current source data includes:
+
+```txt
+96 instruments and sound sources
+12 packs
+2 locales: en, ko
+6 taxonomy files
+validation script
+runtime catalog build script
+release package script
+```
+
+The current focus is stabilizing the source data, validation pipeline, runtime build artifacts, and release package workflow before expanding the catalog further.
+
+## Repository structure
+
+```txt
+instrument-atlas/
+  README.md
+  package.json
+
+  data/
+    instruments/
+      inst_grand_piano.json
+      inst_acoustic_guitar.json
+      inst_kick_drum.json
+      inst_hihat.json
+      ...
+
+    packs/
+      core.json
+      standard-drums.json
+      standard-orchestral.json
+      synths.json
+      foley.json
+      extended.json
+      world-east-asia.json
+      world-south-asia.json
+      world-europe.json
+      world-africa.json
+      world-latin.json
+      world-oceania.json
+
+    taxonomy/
+      families.json
+      frequency-bands.json
+      materials.json
+      playing-methods.json
+      regions.json
+      tags.json
+
+  locales/
+    en/
+      inst_grand_piano.json
+      inst_acoustic_guitar.json
+      ...
+
+    ko/
+      inst_grand_piano.json
+      inst_acoustic_guitar.json
+      ...
+
+  scripts/
+    validate.mjs
+    build.mjs
+    package-release.mjs
+    check-pack-links.mjs
+
+  dist/
+    instruments/
+      v1/
+        manifest.json
+        packs/
+        indexes/
+
+  release/
+    instrument-atlas-v0.1.0.zip
+```
+
+`dist/` and `release/` are generated artifacts and should not be committed.
+
+`_import/` and `_local/` are local-only folders and should not be committed.
+
+## Core principles
+
+1. Source data is managed as one JSON file per instrument.
+2. Localized names, aliases, keywords, and descriptions are stored separately.
+3. Runtime distribution files are generated from source data.
+4. Actual audio sample files are not stored in this repository.
+5. This repository provides metadata only.
+6. Applications should consume versioned release artifacts, not the latest branch state.
+7. External contributors should be able to add or edit one instrument without touching the whole dataset.
+8. Optional advanced metadata such as frequency profiles should remain optional and additive.
 
 ## Data model
 
@@ -49,246 +146,205 @@ Each instrument is managed as a separate source JSON file.
 Example:
 
 ```txt
-data/instruments/inst_808_cowbell.json
-````
+data/instruments/inst_grand_piano.json
+```
 
 Language-specific names, aliases, search keywords, and descriptions are stored separately under `locales/`.
 
 Example:
 
 ```txt
-locales/en/inst_808_cowbell.json
-locales/ko/inst_808_cowbell.json
+locales/en/inst_grand_piano.json
+locales/ko/inst_grand_piano.json
 ```
 
 This separation keeps core instrument metadata independent from translation data.
-
-## Repository structure
-
-```txt
-instrument-atlas/
-  README.md
-  LICENSE
-  package.json
-
-  data/
-    instruments/
-      inst_grand_piano.json
-      inst_acoustic_guitar.json
-      inst_electric_guitar.json
-      inst_808_cowbell.json
-      inst_agogo_bells.json
-
-    packs/
-      core.json
-      standard-drums.json
-      standard-keys.json
-      standard-guitars.json
-      standard-orchestral.json
-      electronic-percussion.json
-      world-east-asia.json
-      world-south-asia.json
-      world-middle-east.json
-      world-africa.json
-      world-latin.json
-      foley.json
-      synths.json
-
-    taxonomy/
-      families.json
-      regions.json
-      materials.json
-      playing-methods.json
-      tags.json
-
-  locales/
-    en/
-      inst_grand_piano.json
-      inst_808_cowbell.json
-
-    ko/
-      inst_grand_piano.json
-      inst_808_cowbell.json
-
-    ja/
-      inst_grand_piano.json
-
-    zh/
-      inst_grand_piano.json
-
-  scripts/
-    validate.mjs
-    build.mjs
-    package-release.mjs
-
-  dist/
-    instruments/
-      v1/
-        manifest.json
-        indexes/
-        packs/
-```
-
-## Core principles
-
-1. Source data is managed as one JSON file per instrument.
-2. Runtime distribution files are not provided as one file per instrument.
-3. Source data and build artifacts are separated.
-4. Actual audio sample files are not stored in this repository.
-5. This repository provides metadata only.
-6. UI translations and instrument data translations are managed separately.
-7. External contributors should be able to add or edit one instrument easily.
-8. Applications should consume release artifacts by pack or index.
 
 ## Instrument source example
 
 ```json
 {
-  "id": "inst_808_cowbell",
-  "family": "bells_idiophones",
-  "subfamily": "electronic_percussion",
-  "tags": ["808", "cowbell", "electronic", "funk", "latin", "drum_machine"],
-  "regions": ["global"],
-  "materials": ["electronics"],
-  "playingMethods": ["triggered", "sequenced"],
+  "id": "inst_grand_piano",
+  "family": "Keys",
+  "subfamily": null,
+  "tags": [
+    "keyboard",
+    "acoustic",
+    "hammer",
+    "classical",
+    "jazz"
+  ],
+  "regions": [
+    "Global",
+    "Europe"
+  ],
+  "materials": [
+    "Wood",
+    "Metal",
+    "Ivory"
+  ],
+  "playingMethods": [
+    "Struck"
+  ],
   "isPercussive": true,
   "isPitched": true,
-  "pitchRange": null,
-  "similarInstruments": ["inst_cowbell", "inst_agogo_bells"],
-  "minorInstrumentScore": 0.75,
-  "packIds": ["core", "electronic-percussion", "standard-drums"],
+  "pitchRange": "A0-C8",
+  "similarInstruments": [
+    "inst_upright_piano",
+    "inst_rhodes"
+  ],
+  "minorInstrumentScore": 0.1,
+  "packIds": [
+    "core"
+  ],
   "metadata": {
-    "wikidataId": null,
+    "wikidataId": "Q5994",
     "sourceRefs": [],
     "license": "CC0"
   }
 }
 ```
 
-Instrument source files should not contain localized names or descriptions. Localized data belongs in `locales/{locale}/`.
+Instrument source files should not contain localized names or localized descriptions. Localized data belongs in `locales/{locale}/`.
 
-## Locale example
+## Locale source example
 
 ```json
 {
-  "id": "inst_808_cowbell",
-  "name": "808 Cowbell",
-  "aliases": ["TR-808 cowbell", "808 bell", "electronic cowbell"],
-  "searchKeywords": ["808", "cowbell", "funk", "latin", "drum machine", "electronic percussion"],
-  "description": "A synthetic cowbell sound associated with classic drum machines, funk, electro, and dance music."
+  "id": "inst_grand_piano",
+  "name": "Grand Piano",
+  "aliases": [
+    "Grand Piano",
+    "piano",
+    "grand piano",
+    "studio piano"
+  ],
+  "searchKeywords": [
+    "piano",
+    "keyboard",
+    "hammer percussion"
+  ],
+  "description": "A large acoustic piano where the frame and strings are horizontal."
 }
 ```
 
+## Optional frequency profile metadata
+
+Some instruments may include optional `frequencyProfile` metadata.
+
+This data is intended as a practical hint for search, filtering, analysis, or audio-tool integrations. It is not required for every instrument.
+
+Example:
+
+```json
+{
+  "frequencyProfile": {
+    "type": "estimated",
+    "confidence": "medium",
+    "fundamentalRangeHz": [
+      40,
+      120
+    ],
+    "prominentBands": [
+      {
+        "role": "sub",
+        "rangeHz": [
+          40,
+          80
+        ],
+        "description": "Low-end weight and thump"
+      }
+    ],
+    "transientBands": [],
+    "noiseBands": [],
+    "notes": "Estimated mix-oriented profile. Actual values vary by tuning, sample, and processing."
+  }
+}
+```
+
+Frequency metadata should be treated as optional and approximate unless backed by measured or cited data.
+
 ## Packs
 
-Packs are used to group instruments into downloadable or loadable units.
+Packs group instruments and sound sources into loadable units.
 
-Initial pack levels:
+Current packs:
+
+```txt
+core
+standard-drums
+standard-orchestral
+synths
+foley
+extended
+world-east-asia
+world-south-asia
+world-europe
+world-africa
+world-latin
+world-oceania
+```
+
+Pack levels:
 
 ```txt
 Level 1: Core
   Common instruments and essential sound sources.
 
 Level 2: Standard
-  Frequently used instrument groups such as drums, keys, guitars, orchestral instruments, and synths.
+  Frequently used instrument groups such as drums, orchestral instruments, synths, foley, and regional/world instruments.
 
 Level 3: Extended
-  World instruments, rare instruments, foley, historical instruments, and special sound sources.
+  Rare, minor, experimental, or specialized instruments and sound sources.
 ```
 
-Example packs:
-
-```txt
-core
-standard-drums
-standard-keys
-standard-guitars
-standard-orchestral
-standard-vocals
-electronic-percussion
-synths
-foley
-world-east-asia
-world-south-asia
-world-middle-east
-world-africa
-world-latin
-rare-folk
-historical
-```
-
-## Build artifacts
+## Runtime build artifacts
 
 Source files are optimized for contribution and review.
 
-Build artifacts are optimized for application runtime usage.
+Runtime artifacts are optimized for application usage.
 
-Recommended output structure:
+Generated output structure:
 
 ```txt
 dist/instruments/v1/
   manifest.json
 
   indexes/
-    core.en.json
-    core.ko.json
-    standard.en.json
-    standard.ko.json
-    extended.en.json
-    extended.ko.json
+    search.en.json
+    search.ko.json
 
   packs/
     core.en.json
     core.ko.json
     standard-drums.en.json
     standard-drums.ko.json
-    standard-keys.en.json
-    standard-keys.ko.json
-    electronic-percussion.en.json
-    electronic-percussion.ko.json
+    standard-orchestral.en.json
+    standard-orchestral.ko.json
+    ...
 ```
 
-Applications should initially load only `manifest.json` and the required core pack. Additional packs can be loaded on demand.
+Applications should initially load `manifest.json`, then load the required search index or pack files on demand.
 
-## Validation
+## Release package
 
-The validation script should check:
+The package script creates a zip file for GitHub Releases.
 
-* Duplicate instrument IDs
-* Filename and ID consistency
-* Required fields
-* Pack ID references
-* Similar instrument references
-* Locale ID consistency
-* Missing locale names
-* `minorInstrumentScore` range
-* Source reference URL format
-* Taxonomy values
-* Empty packs
-* JSON parse errors
-
-## Build process
-
-Recommended commands:
-
-```sh
-npm run validate
-npm run build
-npm run package
-```
-
-Expected release package:
+Expected output:
 
 ```txt
-instrument-atlas-v1.0.0.zip
+release/instrument-atlas-v0.1.0.zip
 ```
 
-Expected package contents:
+Expected zip contents:
 
 ```txt
 instruments/v1/manifest.json
-instruments/v1/indexes/...
-instruments/v1/packs/...
+instruments/v1/indexes/search.en.json
+instruments/v1/indexes/search.ko.json
+instruments/v1/packs/core.en.json
+instruments/v1/packs/core.ko.json
+...
 ```
 
 Applications should use a fixed release version instead of directly depending on the latest branch state.
@@ -296,69 +352,124 @@ Applications should use a fixed release version instead of directly depending on
 Example:
 
 ```txt
-INSTRUMENT_ATLAS_VERSION=v1.0.0
-INSTRUMENT_ATLAS_URL=https://github.com/<owner>/instrument-atlas/releases/download/v1.0.0/instrument-atlas-v1.0.0.zip
+INSTRUMENT_ATLAS_VERSION=v0.1.0
+INSTRUMENT_ATLAS_URL=https://github.com/<owner>/Instrument-Atlas/releases/download/v0.1.0/instrument-atlas-v0.1.0.zip
 ```
 
-## MVP scope
+## Scripts
 
-The first version should stay small and complete.
+Install dependencies:
 
-Initial MVP:
+```sh
+npm install
+```
 
-* 10 to 30 instruments
-* English and Korean locales
-* Core pack only
-* Validation script
-* Build script
-* Manifest generation
-* Pack JSON generation
-* GitHub Release zip package
+Validate source data:
 
-Suggested initial instruments:
+```sh
+npm run validate
+```
+
+Build runtime catalog files:
+
+```sh
+npm run build
+```
+
+Create a release zip:
+
+```sh
+npm run package
+```
+
+Check pack and instrument links only:
+
+```sh
+npm run check:packs
+```
+
+## Validation
+
+The validation script checks:
+
+- JSON parse errors
+- Duplicate instrument IDs
+- Instrument filename and ID consistency
+- Pack filename and ID consistency
+- Locale filename and ID consistency
+- Required fields
+- Pack ID references
+- Similar instrument references
+- Locale coverage
+- Missing locale names
+- `minorInstrumentScore` range
+- Source reference URL format
+- Family taxonomy values
+- Empty packs
+- Optional `frequencyProfile` structure
+
+## Build process
+
+Recommended local workflow:
+
+```sh
+npm run validate
+npm run build
+npm run package
+```
+
+Expected successful validation:
 
 ```txt
-inst_grand_piano
-inst_acoustic_guitar
-inst_electric_guitar
-inst_drum_kit
-inst_kick_drum
-inst_snare_drum
-inst_hi_hat
-inst_cowbell
-inst_808_cowbell
-inst_agogo_bells
+Validation OK
+Checked 96 instruments.
+Checked 12 packs.
+Checked 2 locales.
 ```
 
-## Roadmap
+Expected successful build:
 
-### Phase 1: MVP
+```txt
+Build OK
+Generated manifest: dist/instruments/v1/manifest.json
+Generated pack files: 24
+Generated search indexes: 2
+```
 
-* Create source directory structure
-* Add 10 to 30 core instruments
-* Add English and Korean locale files
-* Add validation script
-* Add build script
-* Generate core pack
-* Publish first alpha release
+With 12 packs and 2 locales, the build should generate 24 localized pack files.
 
-### Phase 2: Standard packs
+## Contribution guide
 
-* Add 100+ instruments
-* Add standard drum, key, guitar, orchestral, and synth packs
-* Add search index generation
-* Improve contribution guide
-* Add JSON Schema validation
+Contributions are welcome.
 
-### Phase 3: Extended catalog
+You can contribute by:
 
-* Add 300 to 1000+ instruments and sound sources
-* Add world, foley, rare, and historical packs
-* Expand multilingual aliases
-* Add source references and Wikidata IDs
-* Strengthen automated validation
+- Adding a new instrument or sound source
+- Improving aliases
+- Adding or improving locale files
+- Improving search keywords
+- Adding source references
+- Fixing taxonomy values
+- Improving validation or build scripts
+- Adding optional frequency metadata where useful
 
-## License
+Before opening a pull request, make sure:
+
+- The instrument ID starts with `inst_`
+- The filename matches the instrument ID
+- No audio files are included
+- Locale files match existing instrument IDs
+- Pack IDs are valid
+- Similar instrument references are valid
+- Validation passes successfully
+
+Run:
+
+```sh
+npm run validate
+```
+
+## Data and code license
 
 Recommended license structure:
 
@@ -373,31 +484,35 @@ CC BY 4.0 is recommended if attribution and contributor/source visibility are im
 
 Actual audio samples should not be included in this repository.
 
-## Contributing
+## Roadmap
 
-Contributions are welcome.
+### Phase 1: Alpha catalog
 
-You can contribute by:
+- Maintain the current 96-instrument source dataset
+- Keep English and Korean locale coverage complete
+- Keep validation, build, and package scripts stable
+- Publish the first versioned release zip
+- Improve README and contribution guidance
 
-* Adding a new instrument
-* Improving aliases
-* Adding locale files
-* Improving search keywords
-* Adding source references
-* Fixing taxonomy values
-* Improving validation or build scripts
+### Phase 2: Data quality pass
 
-Before opening a pull request, please make sure:
+- Fix inconsistent aliases and search keywords
+- Improve empty descriptions
+- Normalize taxonomy values
+- Add more source references
+- Add Wikidata IDs where appropriate
+- Add or improve optional frequency profiles where useful
 
-* The instrument ID follows the project naming rules
-* The filename matches the instrument ID
-* No audio files are included
-* Locale files match existing instrument IDs
-* Pack IDs and taxonomy values are valid
-* Validation passes successfully
+### Phase 3: Expanded catalog
+
+- Add more world, foley, electronic, historical, and minor instruments
+- Add additional locales
+- Add JSON Schema files
+- Add GitHub Actions for validation and release packaging
+- Improve release automation and consumer documentation
 
 ## Project status
 
-Instrument Atlas is in early planning and MVP development.
+Instrument Atlas is in early alpha development.
 
-The current focus is building a small but complete catalog structure before expanding the number of instruments.
+The current focus is stabilizing the source data, validation pipeline, runtime build artifacts, and release package workflow before expanding the catalog further.
