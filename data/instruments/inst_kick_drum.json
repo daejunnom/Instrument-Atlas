@@ -1,0 +1,33 @@
+{
+  "id": "inst_kick_drum",
+  "family": "Drums & Percussion",
+  "subfamily": null,
+  "tags": [
+    "drums",
+    "low-end",
+    "rhythm"
+  ],
+  "regions": [
+    "Global"
+  ],
+  "materials": [
+    "Wood",
+    "Plastic"
+  ],
+  "playingMethods": [
+    "Struck"
+  ],
+  "isPercussive": true,
+  "isPitched": false,
+  "pitchRange": null,
+  "similarInstruments": [],
+  "minorInstrumentScore": 0.2,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

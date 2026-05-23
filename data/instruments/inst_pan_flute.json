@@ -1,0 +1,43 @@
+{
+  "id": "inst_pan_flute",
+  "family": "Woodwinds",
+  "subfamily": null,
+  "tags": [
+    "wind",
+    "breathy",
+    "rustic",
+    "mythical",
+    "tribal"
+  ],
+  "regions": [
+    "Greece",
+    "Andes",
+    "Europe",
+    "Global"
+  ],
+  "materials": [
+    "Cane Pipes",
+    "Bamboo"
+  ],
+  "playingMethods": [
+    "Blown across open pipes"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": "G3-G6",
+  "similarInstruments": [
+    "inst_flute",
+    "inst_recorder"
+  ],
+  "minorInstrumentScore": 0.6,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q273111",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q273111"
+    ],
+    "license": "Creative Commons CC0"
+  }
+}

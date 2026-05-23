@@ -1,0 +1,36 @@
+{
+  "id": "inst_guzheng",
+  "family": "World / Traditional",
+  "subfamily": null,
+  "tags": [
+    "string",
+    "plucked",
+    "harp-like",
+    "oriental"
+  ],
+  "regions": [
+    "China"
+  ],
+  "materials": [
+    "Wood",
+    "Metal Strings"
+  ],
+  "playingMethods": [
+    "Plucked"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": "D2-D7",
+  "similarInstruments": [
+    "inst_harp"
+  ],
+  "minorInstrumentScore": 0.8,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

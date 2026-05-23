@@ -1,0 +1,35 @@
+{
+  "id": "inst_hammond_organ",
+  "family": "Keys",
+  "subfamily": null,
+  "tags": [
+    "keyboard",
+    "electric",
+    "vintage",
+    "gospel",
+    "rock"
+  ],
+  "regions": [
+    "Global"
+  ],
+  "materials": [
+    "Electronics",
+    "Drawbars"
+  ],
+  "playingMethods": [
+    "Sustained"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": "C1-C6",
+  "similarInstruments": [],
+  "minorInstrumentScore": 0.4,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

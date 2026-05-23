@@ -1,0 +1,48 @@
+{
+  "id": "inst_clavinet",
+  "family": "Keys",
+  "subfamily": null,
+  "tags": [
+    "keyboard",
+    "funky",
+    "percussive keys",
+    "plucked strings",
+    "string-striking",
+    "retro",
+    "processed"
+  ],
+  "regions": [
+    "Germany",
+    "Americas",
+    "Global"
+  ],
+  "materials": [
+    "Metal Tines",
+    "Wood",
+    "Metal Strings",
+    "Yarn dampeners",
+    "Pickups"
+  ],
+  "playingMethods": [
+    "Struck",
+    "Struck strings mechanically via keys"
+  ],
+  "isPercussive": true,
+  "isPitched": true,
+  "pitchRange": "F0-C5",
+  "similarInstruments": [
+    "inst_rhodes",
+    "inst_harpsichord"
+  ],
+  "minorInstrumentScore": 0.5,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q1099105",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q1099105"
+    ],
+    "license": "Creative Commons CC0"
+  }
+}

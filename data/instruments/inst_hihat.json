@@ -1,0 +1,32 @@
+{
+  "id": "inst_hihat",
+  "family": "Drums & Percussion",
+  "subfamily": null,
+  "tags": [
+    "cymbals",
+    "high-frequency",
+    "rhythm"
+  ],
+  "regions": [
+    "Global"
+  ],
+  "materials": [
+    "Metal"
+  ],
+  "playingMethods": [
+    "Struck"
+  ],
+  "isPercussive": true,
+  "isPitched": false,
+  "pitchRange": null,
+  "similarInstruments": [],
+  "minorInstrumentScore": 0.2,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

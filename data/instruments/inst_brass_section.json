@@ -1,0 +1,37 @@
+{
+  "id": "inst_brass_section",
+  "family": "Brass",
+  "subfamily": null,
+  "tags": [
+    "brass",
+    "ensemble",
+    "stabs",
+    "pop brass",
+    "orchestral"
+  ],
+  "regions": [
+    "Global"
+  ],
+  "materials": [
+    "Brass"
+  ],
+  "playingMethods": [
+    "Blown"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": null,
+  "similarInstruments": [
+    "inst_trumpet",
+    "inst_trombone"
+  ],
+  "minorInstrumentScore": 0.2,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

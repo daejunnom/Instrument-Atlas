@@ -1,0 +1,46 @@
+{
+  "id": "inst_bassoon",
+  "family": "Woodwinds",
+  "subfamily": null,
+  "tags": [
+    "woodwind",
+    "double-reed",
+    "bass woodwind",
+    "quirky",
+    "wind",
+    "reed",
+    "low-end",
+    "orchestral"
+  ],
+  "regions": [
+    "Europe",
+    "Global"
+  ],
+  "materials": [
+    "Wood",
+    "Maple Wood",
+    "Metal Keys"
+  ],
+  "playingMethods": [
+    "Blown",
+    "Blown through Double Reed"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": "Bb1-Eb5",
+  "similarInstruments": [
+    "inst_oboe",
+    "inst_tuba"
+  ],
+  "minorInstrumentScore": 0.45,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q11394",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q11394"
+    ],
+    "license": "Creative Commons CC0"
+  }
+}

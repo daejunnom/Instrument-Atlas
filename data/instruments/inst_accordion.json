@@ -1,0 +1,42 @@
+{
+  "id": "inst_accordion",
+  "family": "Keys",
+  "subfamily": null,
+  "tags": [
+    "keyboard",
+    "bellows",
+    "french-chanson",
+    "polka",
+    "rustic"
+  ],
+  "regions": [
+    "Europe",
+    "Global"
+  ],
+  "materials": [
+    "Wood",
+    "Plastic Codes",
+    "Metal Reeds"
+  ],
+  "playingMethods": [
+    "Bellows squeezed with Keys / Buttons"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": "F2-A6",
+  "similarInstruments": [
+    "inst_harmonica",
+    "inst_bagpipes"
+  ],
+  "minorInstrumentScore": 0.5,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q79778",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q79778"
+    ],
+    "license": "Creative Commons CC0"
+  }
+}

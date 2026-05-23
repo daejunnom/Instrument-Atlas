@@ -5,6 +5,7 @@
   "type": "module",
   "description": "A multilingual metadata catalog for musical instruments and sound sources.",
   "scripts": {
+    "import:stemx:instruments": "node scripts/import-stemx-instruments.mjs",
     "validate": "node scripts/validate.mjs",
     "build": "node scripts/build.mjs",
     "package": "node scripts/package-release.mjs"

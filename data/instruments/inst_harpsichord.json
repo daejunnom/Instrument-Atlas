@@ -1,0 +1,41 @@
+{
+  "id": "inst_harpsichord",
+  "family": "Keys",
+  "subfamily": null,
+  "tags": [
+    "keyboard",
+    "string",
+    "baroque",
+    "plucked-keys",
+    "classical"
+  ],
+  "regions": [
+    "Europe"
+  ],
+  "materials": [
+    "Wood",
+    "Quills",
+    "Metal Strings"
+  ],
+  "playingMethods": [
+    "Plucked via Keys"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": "F1-F6",
+  "similarInstruments": [
+    "inst_grand_piano",
+    "inst_clavinet"
+  ],
+  "minorInstrumentScore": 0.55,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q122822",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q122822"
+    ],
+    "license": "Creative Commons CC0"
+  }
+}

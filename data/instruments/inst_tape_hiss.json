@@ -1,0 +1,34 @@
+{
+  "id": "inst_tape_hiss",
+  "family": "FX & Foley",
+  "subfamily": null,
+  "tags": [
+    "noise",
+    "vintage",
+    "lofi warmth",
+    "vibe"
+  ],
+  "regions": [
+    "Global"
+  ],
+  "materials": [
+    "Magnetic Tape",
+    "Vinyl"
+  ],
+  "playingMethods": [
+    "Recorded"
+  ],
+  "isPercussive": false,
+  "isPitched": false,
+  "pitchRange": null,
+  "similarInstruments": [],
+  "minorInstrumentScore": 0.6,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

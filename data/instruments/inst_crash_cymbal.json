@@ -1,0 +1,33 @@
+{
+  "id": "inst_crash_cymbal",
+  "family": "Cymbals & Metals",
+  "subfamily": null,
+  "tags": [
+    "metal",
+    "cymbals",
+    "accent",
+    "loud"
+  ],
+  "regions": [
+    "Global"
+  ],
+  "materials": [
+    "Metal"
+  ],
+  "playingMethods": [
+    "Struck"
+  ],
+  "isPercussive": true,
+  "isPitched": false,
+  "pitchRange": null,
+  "similarInstruments": [],
+  "minorInstrumentScore": 0.3,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

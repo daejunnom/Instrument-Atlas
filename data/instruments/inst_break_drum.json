@@ -1,0 +1,33 @@
+{
+  "id": "inst_break_drum",
+  "family": "Cymbals & Metals",
+  "subfamily": null,
+  "tags": [
+    "percussion",
+    "metal",
+    "industrial",
+    "junk"
+  ],
+  "regions": [
+    "Global"
+  ],
+  "materials": [
+    "Metal"
+  ],
+  "playingMethods": [
+    "Struck"
+  ],
+  "isPercussive": true,
+  "isPitched": false,
+  "pitchRange": null,
+  "similarInstruments": [],
+  "minorInstrumentScore": 0.95,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

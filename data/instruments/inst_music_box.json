@@ -1,0 +1,41 @@
+{
+  "id": "inst_music_box",
+  "family": "Bells & Idiophones",
+  "subfamily": null,
+  "tags": [
+    "mallet",
+    "metal",
+    "magical",
+    "nostalgic",
+    "winding"
+  ],
+  "regions": [
+    "Europe",
+    "Switzerland"
+  ],
+  "materials": [
+    "Steel Tines",
+    "Gear Cylinder"
+  ],
+  "playingMethods": [
+    "Rotated mechanical cylinder pluck"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": "C5-C8",
+  "similarInstruments": [
+    "inst_celesta",
+    "inst_glockenspiel"
+  ],
+  "minorInstrumentScore": 0.5,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q1363290",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q1363290"
+    ],
+    "license": "Creative Commons CC0"
+  }
+}

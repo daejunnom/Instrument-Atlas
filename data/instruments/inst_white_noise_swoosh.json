@@ -1,0 +1,33 @@
+{
+  "id": "inst_white_noise_swoosh",
+  "family": "FX & Foley",
+  "subfamily": null,
+  "tags": [
+    "synthesized",
+    "noise",
+    "transition",
+    "atmospheric"
+  ],
+  "regions": [
+    "Global"
+  ],
+  "materials": [
+    "Electronics"
+  ],
+  "playingMethods": [
+    "Filtered"
+  ],
+  "isPercussive": false,
+  "isPitched": false,
+  "pitchRange": null,
+  "similarInstruments": [],
+  "minorInstrumentScore": 0.6,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

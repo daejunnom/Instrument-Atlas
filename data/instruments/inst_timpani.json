@@ -1,0 +1,39 @@
+{
+  "id": "inst_timpani",
+  "family": "Drums & Percussion",
+  "subfamily": null,
+  "tags": [
+    "percussion",
+    "orchestral",
+    "low-end",
+    "pitched-percussion"
+  ],
+  "regions": [
+    "Europe"
+  ],
+  "materials": [
+    "Copper",
+    "Calfskin",
+    "Plastic"
+  ],
+  "playingMethods": [
+    "Struck"
+  ],
+  "isPercussive": true,
+  "isPitched": true,
+  "pitchRange": "F1-C4",
+  "similarInstruments": [
+    "inst_kick_drum"
+  ],
+  "minorInstrumentScore": 0.5,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q188544",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q188544"
+    ],
+    "license": "Creative Commons CC0"
+  }
+}

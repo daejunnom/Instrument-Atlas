@@ -1,0 +1,34 @@
+{
+  "id": "inst_modular_synth",
+  "family": "Synths",
+  "subfamily": null,
+  "tags": [
+    "electronic",
+    "glitch",
+    "bleeps",
+    "weird",
+    "sci-fi"
+  ],
+  "regions": [
+    "Global"
+  ],
+  "materials": [
+    "Electronics"
+  ],
+  "playingMethods": [
+    "Generative"
+  ],
+  "isPercussive": true,
+  "isPitched": true,
+  "pitchRange": null,
+  "similarInstruments": [],
+  "minorInstrumentScore": 0.7,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

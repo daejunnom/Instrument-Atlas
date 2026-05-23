@@ -1,0 +1,33 @@
+{
+  "id": "inst_rain_ambient",
+  "family": "FX & Foley",
+  "subfamily": null,
+  "tags": [
+    "foley",
+    "nature",
+    "relaxing",
+    "texture"
+  ],
+  "regions": [
+    "Global"
+  ],
+  "materials": [
+    "Water"
+  ],
+  "playingMethods": [
+    "Recorded"
+  ],
+  "isPercussive": false,
+  "isPitched": false,
+  "pitchRange": null,
+  "similarInstruments": [],
+  "minorInstrumentScore": 0.5,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

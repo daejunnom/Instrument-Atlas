@@ -1,0 +1,37 @@
+{
+  "id": "inst_synth_pad",
+  "family": "Synths",
+  "subfamily": null,
+  "tags": [
+    "electronic",
+    "synthesizer",
+    "warm",
+    "atmospheric",
+    "wash"
+  ],
+  "regions": [
+    "Global"
+  ],
+  "materials": [
+    "Electronics"
+  ],
+  "playingMethods": [
+    "Sustained"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": null,
+  "similarInstruments": [
+    "inst_synth_lead",
+    "inst_orchestral_strings"
+  ],
+  "minorInstrumentScore": 0.2,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

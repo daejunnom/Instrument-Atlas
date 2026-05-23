@@ -1,0 +1,43 @@
+{
+  "id": "inst_banjo",
+  "family": "Strings",
+  "subfamily": null,
+  "tags": [
+    "string",
+    "pluck",
+    "sharp",
+    "country",
+    "bluegrass"
+  ],
+  "regions": [
+    "North America",
+    "Africa"
+  ],
+  "materials": [
+    "Wood",
+    "Metal",
+    "Plastic Head"
+  ],
+  "playingMethods": [
+    "Fingerpicked",
+    "Strummed"
+  ],
+  "isPercussive": true,
+  "isPitched": true,
+  "pitchRange": "G3-A5",
+  "similarInstruments": [
+    "inst_acoustic_guitar",
+    "inst_ukulele"
+  ],
+  "minorInstrumentScore": 0.6,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q132890",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q132890"
+    ],
+    "license": "Creative Commons CC0"
+  }
+}

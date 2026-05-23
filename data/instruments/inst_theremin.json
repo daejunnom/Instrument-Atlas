@@ -1,0 +1,40 @@
+{
+  "id": "inst_theremin",
+  "family": "Synths",
+  "subfamily": null,
+  "tags": [
+    "synth",
+    "electronic",
+    "sci-fi",
+    "ghastly",
+    "spooky"
+  ],
+  "regions": [
+    "Russia",
+    "Global"
+  ],
+  "materials": [
+    "Electronic Circuits",
+    "Antennas"
+  ],
+  "playingMethods": [
+    "Waving hands in electromagnetic fields"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": "Continuous (Infinite)",
+  "similarInstruments": [
+    "inst_female_vocals"
+  ],
+  "minorInstrumentScore": 0.85,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q201633",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q201633"
+    ],
+    "license": "Creative Commons CC0"
+  }
+}

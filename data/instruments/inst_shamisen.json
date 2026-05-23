@@ -1,0 +1,37 @@
+{
+  "id": "inst_shamisen",
+  "family": "World / Traditional",
+  "subfamily": null,
+  "tags": [
+    "string",
+    "acoustic",
+    "percussive pluck",
+    "oriental"
+  ],
+  "regions": [
+    "Japan"
+  ],
+  "materials": [
+    "Wood",
+    "Silk Strings",
+    "Skin"
+  ],
+  "playingMethods": [
+    "Plucked with Bachi"
+  ],
+  "isPercussive": true,
+  "isPitched": true,
+  "pitchRange": "C3-C6",
+  "similarInstruments": [
+    "inst_acoustic_guitar"
+  ],
+  "minorInstrumentScore": 0.8,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

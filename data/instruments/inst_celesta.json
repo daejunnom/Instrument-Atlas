@@ -1,0 +1,40 @@
+{
+  "id": "inst_celesta",
+  "family": "Keys",
+  "subfamily": null,
+  "tags": [
+    "keyboard",
+    "metal",
+    "bright",
+    "magical",
+    "orchestral"
+  ],
+  "regions": [
+    "Europe"
+  ],
+  "materials": [
+    "Metal Plates",
+    "Wood Cabinet"
+  ],
+  "playingMethods": [
+    "Struck via Keys"
+  ],
+  "isPercussive": true,
+  "isPitched": true,
+  "pitchRange": "C4-C8",
+  "similarInstruments": [
+    "inst_grand_piano",
+    "inst_glockenspiel"
+  ],
+  "minorInstrumentScore": 0.6,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q191986",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q191986"
+    ],
+    "license": "Creative Commons CC0"
+  }
+}

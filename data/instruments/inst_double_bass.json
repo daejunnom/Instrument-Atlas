@@ -1,0 +1,45 @@
+{
+  "id": "inst_double_bass",
+  "family": "Strings",
+  "subfamily": null,
+  "tags": [
+    "string",
+    "bowed",
+    "deep",
+    "low-frequency",
+    "jazz",
+    "orchestral",
+    "low-end",
+    "plucked"
+  ],
+  "regions": [
+    "Global",
+    "Europe"
+  ],
+  "materials": [
+    "Wood",
+    "Steel Strings"
+  ],
+  "playingMethods": [
+    "Bowed",
+    "Plucked"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": "E1-C4",
+  "similarInstruments": [
+    "inst_cello",
+    "inst_bass_guitar"
+  ],
+  "minorInstrumentScore": 0.3,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q80017",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q80017"
+    ],
+    "license": "Creative Commons CC0"
+  }
+}

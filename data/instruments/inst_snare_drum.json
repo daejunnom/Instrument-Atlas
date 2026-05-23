@@ -1,0 +1,33 @@
+{
+  "id": "inst_snare_drum",
+  "family": "Drums & Percussion",
+  "subfamily": null,
+  "tags": [
+    "drums",
+    "sharp",
+    "rhythm"
+  ],
+  "regions": [
+    "Global"
+  ],
+  "materials": [
+    "Metal",
+    "Wood"
+  ],
+  "playingMethods": [
+    "Struck"
+  ],
+  "isPercussive": true,
+  "isPitched": false,
+  "pitchRange": null,
+  "similarInstruments": [],
+  "minorInstrumentScore": 0.2,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

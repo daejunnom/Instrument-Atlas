@@ -1,0 +1,40 @@
+{
+  "id": "inst_erhu",
+  "family": "World / Traditional",
+  "subfamily": null,
+  "tags": [
+    "string",
+    "bowed",
+    "sad",
+    "expressive",
+    "oriental"
+  ],
+  "regions": [
+    "China"
+  ],
+  "materials": [
+    "Maple Wood",
+    "Python Skin",
+    "Steel Strings"
+  ],
+  "playingMethods": [
+    "Bowed between two strings"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": "D4-A6",
+  "similarInstruments": [
+    "inst_violin"
+  ],
+  "minorInstrumentScore": 0.75,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q272186",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q272186"
+    ],
+    "license": "Creative Commons CC0"
+  }
+}

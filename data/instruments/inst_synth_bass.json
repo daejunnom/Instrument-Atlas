@@ -1,0 +1,37 @@
+{
+  "id": "inst_synth_bass",
+  "family": "Synths",
+  "subfamily": null,
+  "tags": [
+    "electronic",
+    "synthesizer",
+    "low-end",
+    "analog",
+    "acid"
+  ],
+  "regions": [
+    "Global"
+  ],
+  "materials": [
+    "Electronics"
+  ],
+  "playingMethods": [
+    "Played"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": null,
+  "similarInstruments": [
+    "inst_bass_guitar",
+    "inst_sub_bass"
+  ],
+  "minorInstrumentScore": 0.2,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

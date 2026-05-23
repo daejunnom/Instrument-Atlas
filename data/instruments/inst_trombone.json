@@ -1,0 +1,37 @@
+{
+  "id": "inst_trombone",
+  "family": "Brass",
+  "subfamily": null,
+  "tags": [
+    "brass",
+    "low brass",
+    "slide",
+    "growling"
+  ],
+  "regions": [
+    "Europe",
+    "Global"
+  ],
+  "materials": [
+    "Brass"
+  ],
+  "playingMethods": [
+    "Blown"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": "E2-F5",
+  "similarInstruments": [
+    "inst_trumpet",
+    "inst_tuba"
+  ],
+  "minorInstrumentScore": 0.4,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

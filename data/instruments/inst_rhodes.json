@@ -1,0 +1,38 @@
+{
+  "id": "inst_rhodes",
+  "family": "Keys",
+  "subfamily": null,
+  "tags": [
+    "keyboard",
+    "electric",
+    "mellow",
+    "soul",
+    "vintage"
+  ],
+  "regions": [
+    "Global"
+  ],
+  "materials": [
+    "Metal Tines",
+    "Electronics"
+  ],
+  "playingMethods": [
+    "Struck"
+  ],
+  "isPercussive": true,
+  "isPitched": true,
+  "pitchRange": "C2-C7",
+  "similarInstruments": [
+    "inst_grand_piano",
+    "inst_clavinet"
+  ],
+  "minorInstrumentScore": 0.3,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "inst_saxophone",
+  "family": "Woodwinds",
+  "subfamily": null,
+  "tags": [
+    "woodwind",
+    "brass-body",
+    "expressive",
+    "jazz",
+    "sensual"
+  ],
+  "regions": [
+    "Global",
+    "Europe"
+  ],
+  "materials": [
+    "Brass",
+    "Reed"
+  ],
+  "playingMethods": [
+    "Blown"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": "Db3-Ab5",
+  "similarInstruments": [
+    "inst_clarinet",
+    "inst_trumpet"
+  ],
+  "minorInstrumentScore": 0.2,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

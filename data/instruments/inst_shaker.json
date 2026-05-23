@@ -1,0 +1,34 @@
+{
+  "id": "inst_shaker",
+  "family": "Drums & Percussion",
+  "subfamily": null,
+  "tags": [
+    "percussion",
+    "shaken",
+    "ambient"
+  ],
+  "regions": [
+    "Global"
+  ],
+  "materials": [
+    "Plastic",
+    "Seeds",
+    "Metal"
+  ],
+  "playingMethods": [
+    "Shaken"
+  ],
+  "isPercussive": true,
+  "isPitched": false,
+  "pitchRange": null,
+  "similarInstruments": [],
+  "minorInstrumentScore": 0.4,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "inst_balalaika",
+  "family": "World / Traditional",
+  "subfamily": null,
+  "tags": [
+    "string",
+    "pluck",
+    "triangular",
+    "folk",
+    "mellow-tremolo"
+  ],
+  "regions": [
+    "Russia",
+    "Eastern Europe"
+  ],
+  "materials": [
+    "Wood",
+    "Nylon / Steel Strings"
+  ],
+  "playingMethods": [
+    "Finger-plucked / Strummed"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": "E4-A6",
+  "similarInstruments": [
+    "inst_acoustic_guitar",
+    "inst_banjo"
+  ],
+  "minorInstrumentScore": 0.85,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q185617",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q185617"
+    ],
+    "license": "Creative Commons CC0"
+  }
+}

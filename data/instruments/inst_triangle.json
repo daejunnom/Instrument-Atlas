@@ -1,0 +1,36 @@
+{
+  "id": "inst_triangle",
+  "family": "Cymbals & Metals",
+  "subfamily": null,
+  "tags": [
+    "idiophone",
+    "metal",
+    "high-pitch",
+    "ding"
+  ],
+  "regions": [
+    "Global",
+    "Europe"
+  ],
+  "materials": [
+    "Metal"
+  ],
+  "playingMethods": [
+    "Struck"
+  ],
+  "isPercussive": true,
+  "isPitched": false,
+  "pitchRange": null,
+  "similarInstruments": [
+    "inst_cowbell"
+  ],
+  "minorInstrumentScore": 0.7,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

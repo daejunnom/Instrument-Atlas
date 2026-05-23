@@ -1,0 +1,41 @@
+{
+  "id": "inst_harmonica",
+  "family": "World / Traditional",
+  "subfamily": null,
+  "tags": [
+    "wind",
+    "free-reed",
+    "blues",
+    "folk",
+    "acoustic"
+  ],
+  "regions": [
+    "Europe",
+    "Americas",
+    "Global"
+  ],
+  "materials": [
+    "Metal Plates",
+    "Plastic Comb"
+  ],
+  "playingMethods": [
+    "Inhaled and Exhaled blown"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": "C4-C7",
+  "similarInstruments": [
+    "inst_accordion"
+  ],
+  "minorInstrumentScore": 0.4,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q185250",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q185250"
+    ],
+    "license": "Creative Commons CC0"
+  }
+}

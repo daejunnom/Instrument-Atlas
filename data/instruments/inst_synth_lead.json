@@ -1,0 +1,36 @@
+{
+  "id": "inst_synth_lead",
+  "family": "Synths",
+  "subfamily": null,
+  "tags": [
+    "electronic",
+    "synthesizer",
+    "keyboard",
+    "sawtooth",
+    "square"
+  ],
+  "regions": [
+    "Global"
+  ],
+  "materials": [
+    "Electronics"
+  ],
+  "playingMethods": [
+    "Played"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": null,
+  "similarInstruments": [
+    "inst_synth_pad"
+  ],
+  "minorInstrumentScore": 0.1,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

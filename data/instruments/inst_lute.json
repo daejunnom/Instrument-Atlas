@@ -1,0 +1,41 @@
+{
+  "id": "inst_lute",
+  "family": "Strings",
+  "subfamily": null,
+  "tags": [
+    "string",
+    "pluck",
+    "soft",
+    "historical",
+    "renaissance"
+  ],
+  "regions": [
+    "Europe",
+    "Middle East"
+  ],
+  "materials": [
+    "Wood",
+    "Gut Strings"
+  ],
+  "playingMethods": [
+    "Fingerplucked"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": "G2-G5",
+  "similarInstruments": [
+    "inst_acoustic_guitar",
+    "inst_harp"
+  ],
+  "minorInstrumentScore": 0.7,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q180733",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q180733"
+    ],
+    "license": "Creative Commons CC0"
+  }
+}

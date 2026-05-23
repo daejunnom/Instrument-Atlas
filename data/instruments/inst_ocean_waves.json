@@ -1,0 +1,38 @@
+{
+  "id": "inst_ocean_waves",
+  "family": "FX & Foley",
+  "subfamily": null,
+  "tags": [
+    "foley",
+    "nature",
+    "relaxing",
+    "continuous-noise",
+    "meditative"
+  ],
+  "regions": [
+    "Global"
+  ],
+  "materials": [
+    "Water Surf"
+  ],
+  "playingMethods": [
+    "Recorded"
+  ],
+  "isPercussive": false,
+  "isPitched": false,
+  "pitchRange": null,
+  "similarInstruments": [
+    "inst_rain_ambient"
+  ],
+  "minorInstrumentScore": 0.5,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q11190",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q11190"
+    ],
+    "license": "Public Domain"
+  }
+}

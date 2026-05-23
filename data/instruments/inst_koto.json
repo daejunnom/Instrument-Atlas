@@ -1,0 +1,40 @@
+{
+  "id": "inst_koto",
+  "family": "World / Traditional",
+  "subfamily": null,
+  "tags": [
+    "string",
+    "pluck",
+    "harplike",
+    "traditional",
+    "japanese"
+  ],
+  "regions": [
+    "Japan"
+  ],
+  "materials": [
+    "Paulownia Wood",
+    "Silk / Nylon Strings"
+  ],
+  "playingMethods": [
+    "Plucked with finger picks"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": "G2-A5",
+  "similarInstruments": [
+    "inst_guzheng",
+    "inst_harp"
+  ],
+  "minorInstrumentScore": 0.8,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q272166",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q272166"
+    ],
+    "license": "Creative Commons CC0"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "inst_cowbell",
+  "family": "Bells & Idiophones",
+  "subfamily": null,
+  "tags": [
+    "percussion",
+    "bell",
+    "metal",
+    "accent",
+    "clunky",
+    "funky",
+    "rock"
+  ],
+  "regions": [
+    "Global",
+    "Latin America",
+    "Europe"
+  ],
+  "materials": [
+    "Metal",
+    "Iron",
+    "Steel"
+  ],
+  "playingMethods": [
+    "Struck",
+    "Struck with Drumstick"
+  ],
+  "isPercussive": true,
+  "isPitched": false,
+  "pitchRange": null,
+  "similarInstruments": [
+    "inst_agogo",
+    "inst_triangle"
+  ],
+  "minorInstrumentScore": 0.4,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q1041132",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q1041132"
+    ],
+    "license": "Public Domain"
+  }
+}

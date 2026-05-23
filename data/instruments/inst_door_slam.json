@@ -1,0 +1,39 @@
+{
+  "id": "inst_door_slam",
+  "family": "FX & Foley",
+  "subfamily": null,
+  "tags": [
+    "foley",
+    "impact",
+    "sharp",
+    "wooden clap",
+    "sudden"
+  ],
+  "regions": [
+    "Global"
+  ],
+  "materials": [
+    "Wood",
+    "Metal Lock"
+  ],
+  "playingMethods": [
+    "Slammed"
+  ],
+  "isPercussive": true,
+  "isPitched": false,
+  "pitchRange": null,
+  "similarInstruments": [
+    "inst_cajon"
+  ],
+  "minorInstrumentScore": 0.7,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q205011",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q205011"
+    ],
+    "license": "Public Domain"
+  }
+}

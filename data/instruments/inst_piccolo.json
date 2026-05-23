@@ -1,0 +1,40 @@
+{
+  "id": "inst_piccolo",
+  "family": "Woodwinds",
+  "subfamily": null,
+  "tags": [
+    "wind",
+    "bright",
+    "extreme-high",
+    "classical",
+    "marching"
+  ],
+  "regions": [
+    "Europe",
+    "Global"
+  ],
+  "materials": [
+    "Metal",
+    "Wood"
+  ],
+  "playingMethods": [
+    "Blown (Side-blown)"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": "D5-C8",
+  "similarInstruments": [
+    "inst_flute"
+  ],
+  "minorInstrumentScore": 0.5,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q165380",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q165380"
+    ],
+    "license": "Creative Commons CC0"
+  }
+}

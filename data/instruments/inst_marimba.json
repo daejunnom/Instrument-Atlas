@@ -1,0 +1,45 @@
+{
+  "id": "inst_marimba",
+  "family": "Bells & Idiophones",
+  "subfamily": null,
+  "tags": [
+    "mallet",
+    "wood",
+    "warm",
+    "pitched percussion",
+    "pitched-percussion"
+  ],
+  "regions": [
+    "Africa",
+    "Central America",
+    "Global"
+  ],
+  "materials": [
+    "Wood",
+    "Rosewood",
+    "Metal Resonators"
+  ],
+  "playingMethods": [
+    "Struck",
+    "Struck with Mallets"
+  ],
+  "isPercussive": true,
+  "isPitched": true,
+  "pitchRange": "C2-C7",
+  "similarInstruments": [
+    "inst_xylophone",
+    "inst_glockenspiel",
+    "inst_vibraphone"
+  ],
+  "minorInstrumentScore": 0.4,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q116262",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q116262"
+    ],
+    "license": "Creative Commons CC0"
+  }
+}

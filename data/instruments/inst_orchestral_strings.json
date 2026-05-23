@@ -1,0 +1,37 @@
+{
+  "id": "inst_orchestral_strings",
+  "family": "Strings",
+  "subfamily": null,
+  "tags": [
+    "synth",
+    "orchestra",
+    "pad",
+    "sustained",
+    "swelling"
+  ],
+  "regions": [
+    "Global"
+  ],
+  "materials": [
+    "Mixed Wood"
+  ],
+  "playingMethods": [
+    "Bowed"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": null,
+  "similarInstruments": [
+    "inst_violin",
+    "inst_cello"
+  ],
+  "minorInstrumentScore": 0.1,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

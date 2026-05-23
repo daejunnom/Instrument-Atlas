@@ -1,0 +1,47 @@
+{
+  "id": "inst_oboe",
+  "family": "Woodwinds",
+  "subfamily": null,
+  "tags": [
+    "woodwind",
+    "double-reed",
+    "nasal",
+    "melancholy",
+    "wind",
+    "reed",
+    "expressive",
+    "classical"
+  ],
+  "regions": [
+    "Europe",
+    "Global"
+  ],
+  "materials": [
+    "Wood",
+    "Grenadilla Wood",
+    "Silver Keys"
+  ],
+  "playingMethods": [
+    "Blown",
+    "Blown through Double Reed"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": "Bb3-A6",
+  "similarInstruments": [
+    "inst_flute",
+    "inst_clarinet",
+    "inst_bassoon"
+  ],
+  "minorInstrumentScore": 0.4,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q8372",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q8372"
+    ],
+    "license": "Creative Commons CC0"
+  }
+}

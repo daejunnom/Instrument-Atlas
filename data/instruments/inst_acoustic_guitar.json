@@ -1,0 +1,40 @@
+{
+  "id": "inst_acoustic_guitar",
+  "family": "Guitars",
+  "subfamily": null,
+  "tags": [
+    "string",
+    "acoustic",
+    "plucked",
+    "strummed"
+  ],
+  "regions": [
+    "Global",
+    "Europe",
+    "Americas"
+  ],
+  "materials": [
+    "Wood",
+    "Metal"
+  ],
+  "playingMethods": [
+    "Plucked",
+    "Strummed"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": "E2-E6",
+  "similarInstruments": [
+    "inst_electric_guitar",
+    "inst_classical_guitar"
+  ],
+  "minorInstrumentScore": 0.1,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

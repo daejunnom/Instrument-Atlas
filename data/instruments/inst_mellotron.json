@@ -1,0 +1,40 @@
+{
+  "id": "inst_mellotron",
+  "family": "Keys",
+  "subfamily": null,
+  "tags": [
+    "keyboard",
+    "tape",
+    "psychedelic",
+    "vintage",
+    "retro"
+  ],
+  "regions": [
+    "United Kingdom"
+  ],
+  "materials": [
+    "Magnetic Audio Tapes",
+    "Plastic Keys"
+  ],
+  "playingMethods": [
+    "Pressed Keys triggering tape playback"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": "G2-F5",
+  "similarInstruments": [
+    "inst_grand_piano",
+    "inst_choir"
+  ],
+  "minorInstrumentScore": 0.7,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q904351",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q904351"
+    ],
+    "license": "Creative Commons CC0"
+  }
+}

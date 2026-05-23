@@ -1,0 +1,39 @@
+{
+  "id": "inst_djembe",
+  "family": "Drums & Percussion",
+  "subfamily": null,
+  "tags": [
+    "percussion",
+    "handdrum",
+    "tribal",
+    "deep-slap"
+  ],
+  "regions": [
+    "West Africa"
+  ],
+  "materials": [
+    "Hardwood Goblet",
+    "Goatskin"
+  ],
+  "playingMethods": [
+    "Struck with bare hands"
+  ],
+  "isPercussive": true,
+  "isPitched": false,
+  "pitchRange": null,
+  "similarInstruments": [
+    "inst_congas",
+    "inst_cajon"
+  ],
+  "minorInstrumentScore": 0.6,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q272635",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q272635"
+    ],
+    "license": "Public Domain"
+  }
+}

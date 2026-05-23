@@ -1,0 +1,41 @@
+{
+  "id": "inst_cajon",
+  "family": "Drums & Percussion",
+  "subfamily": null,
+  "tags": [
+    "percussion",
+    "acoustic",
+    "rhythm",
+    "snare-buzz",
+    "flattish"
+  ],
+  "regions": [
+    "Peru",
+    "Latin America"
+  ],
+  "materials": [
+    "Plywood Box",
+    "Snare Wires"
+  ],
+  "playingMethods": [
+    "Struck while sitting on the box"
+  ],
+  "isPercussive": true,
+  "isPitched": false,
+  "pitchRange": null,
+  "similarInstruments": [
+    "inst_kick_drum",
+    "inst_snare_drum"
+  ],
+  "minorInstrumentScore": 0.5,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q251375",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q251375"
+    ],
+    "license": "Creative Commons CC0"
+  }
+}

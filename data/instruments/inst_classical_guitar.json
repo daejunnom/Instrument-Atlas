@@ -1,0 +1,38 @@
+{
+  "id": "inst_classical_guitar",
+  "family": "Guitars",
+  "subfamily": null,
+  "tags": [
+    "string",
+    "acoustic",
+    "nylon",
+    "warm"
+  ],
+  "regions": [
+    "Spain",
+    "Latin America",
+    "Europe"
+  ],
+  "materials": [
+    "Wood",
+    "Nylon Strings"
+  ],
+  "playingMethods": [
+    "Plucked"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": "E2-B5",
+  "similarInstruments": [
+    "inst_acoustic_guitar"
+  ],
+  "minorInstrumentScore": 0.4,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

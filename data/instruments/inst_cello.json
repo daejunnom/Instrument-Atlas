@@ -1,0 +1,38 @@
+{
+  "id": "inst_cello",
+  "family": "Strings",
+  "subfamily": null,
+  "tags": [
+    "string",
+    "bowed",
+    "warm",
+    "low strings"
+  ],
+  "regions": [
+    "Global",
+    "Europe"
+  ],
+  "materials": [
+    "Wood"
+  ],
+  "playingMethods": [
+    "Bowed",
+    "Plucked"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": "C2-A5",
+  "similarInstruments": [
+    "inst_violin",
+    "inst_double_bass"
+  ],
+  "minorInstrumentScore": 0.2,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

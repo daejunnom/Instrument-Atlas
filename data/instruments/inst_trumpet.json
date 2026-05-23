@@ -1,0 +1,39 @@
+{
+  "id": "inst_trumpet",
+  "family": "Brass",
+  "subfamily": null,
+  "tags": [
+    "brass",
+    "bright",
+    "soaring",
+    "jazz"
+  ],
+  "regions": [
+    "Global",
+    "Europe",
+    "Americas"
+  ],
+  "materials": [
+    "Metal",
+    "Brass"
+  ],
+  "playingMethods": [
+    "Blown"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": "F#3-D6",
+  "similarInstruments": [
+    "inst_trombone",
+    "inst_french_horn"
+  ],
+  "minorInstrumentScore": 0.3,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

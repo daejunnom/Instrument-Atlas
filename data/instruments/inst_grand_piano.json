@@ -1,0 +1,40 @@
+{
+  "id": "inst_grand_piano",
+  "family": "Keys",
+  "subfamily": null,
+  "tags": [
+    "keyboard",
+    "acoustic",
+    "hammer",
+    "classical",
+    "jazz"
+  ],
+  "regions": [
+    "Global",
+    "Europe"
+  ],
+  "materials": [
+    "Wood",
+    "Metal",
+    "Ivory"
+  ],
+  "playingMethods": [
+    "Struck"
+  ],
+  "isPercussive": true,
+  "isPitched": true,
+  "pitchRange": "A0-C8",
+  "similarInstruments": [
+    "inst_upright_piano",
+    "inst_rhodes"
+  ],
+  "minorInstrumentScore": 0.1,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q5994",
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

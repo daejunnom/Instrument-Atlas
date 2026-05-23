@@ -1,0 +1,38 @@
+{
+  "id": "inst_harp",
+  "family": "Strings",
+  "subfamily": null,
+  "tags": [
+    "string",
+    "plucked",
+    "ethereal",
+    "arpeggio"
+  ],
+  "regions": [
+    "Europe",
+    "Middle East",
+    "Global"
+  ],
+  "materials": [
+    "Wood",
+    "Nylon Strings"
+  ],
+  "playingMethods": [
+    "Plucked"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": "Cb1-G#7",
+  "similarInstruments": [
+    "inst_guzheng"
+  ],
+  "minorInstrumentScore": 0.5,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

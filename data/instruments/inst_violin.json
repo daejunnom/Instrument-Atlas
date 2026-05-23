@@ -1,0 +1,39 @@
+{
+  "id": "inst_violin",
+  "family": "Strings",
+  "subfamily": null,
+  "tags": [
+    "string",
+    "bowed",
+    "classical",
+    "expressive"
+  ],
+  "regions": [
+    "Global",
+    "Europe"
+  ],
+  "materials": [
+    "Wood",
+    "Gut Strings"
+  ],
+  "playingMethods": [
+    "Bowed",
+    "Plucked"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": "G3-C8",
+  "similarInstruments": [
+    "inst_cello",
+    "inst_viola"
+  ],
+  "minorInstrumentScore": 0.1,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

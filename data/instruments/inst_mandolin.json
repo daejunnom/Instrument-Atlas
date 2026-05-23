@@ -1,0 +1,41 @@
+{
+  "id": "inst_mandolin",
+  "family": "Strings",
+  "subfamily": null,
+  "tags": [
+    "string",
+    "pluck",
+    "bright",
+    "tremolo",
+    "folk"
+  ],
+  "regions": [
+    "Europe",
+    "Italy"
+  ],
+  "materials": [
+    "Wood",
+    "Metal Strings"
+  ],
+  "playingMethods": [
+    "Plucked with Plectrum / Tremolo"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": "G3-A7",
+  "similarInstruments": [
+    "inst_acoustic_guitar",
+    "inst_banjo"
+  ],
+  "minorInstrumentScore": 0.55,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q182594",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q182594"
+    ],
+    "license": "Creative Commons CC0"
+  }
+}

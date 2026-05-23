@@ -1,0 +1,36 @@
+{
+  "id": "inst_agogo",
+  "family": "Bells & Idiophones",
+  "subfamily": null,
+  "tags": [
+    "percussion",
+    "bell",
+    "metal",
+    "samba"
+  ],
+  "regions": [
+    "Brazil",
+    "Africa"
+  ],
+  "materials": [
+    "Metal"
+  ],
+  "playingMethods": [
+    "Struck"
+  ],
+  "isPercussive": true,
+  "isPitched": true,
+  "pitchRange": null,
+  "similarInstruments": [
+    "inst_cowbell"
+  ],
+  "minorInstrumentScore": 0.85,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

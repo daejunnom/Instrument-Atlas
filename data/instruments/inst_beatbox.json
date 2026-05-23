@@ -1,0 +1,39 @@
+{
+  "id": "inst_beatbox",
+  "family": "Vocals",
+  "subfamily": null,
+  "tags": [
+    "vocal",
+    "percussion",
+    "rhythm",
+    "mouth-mimic"
+  ],
+  "regions": [
+    "Global"
+  ],
+  "materials": [
+    "Vocal Chords",
+    "Mouth",
+    "Lips"
+  ],
+  "playingMethods": [
+    "Breathed/Spoken/Produced by speech organs"
+  ],
+  "isPercussive": true,
+  "isPitched": false,
+  "pitchRange": null,
+  "similarInstruments": [
+    "inst_drum_kit"
+  ],
+  "minorInstrumentScore": 0.5,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q330689",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q330689"
+    ],
+    "license": "Creative Commons CC0"
+  }
+}

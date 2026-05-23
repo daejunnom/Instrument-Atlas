@@ -1,0 +1,36 @@
+{
+  "id": "inst_xylophone",
+  "family": "Bells & Idiophones",
+  "subfamily": null,
+  "tags": [
+    "mallet",
+    "wood",
+    "bright",
+    "staccato"
+  ],
+  "regions": [
+    "Global"
+  ],
+  "materials": [
+    "Wood"
+  ],
+  "playingMethods": [
+    "Struck"
+  ],
+  "isPercussive": true,
+  "isPitched": true,
+  "pitchRange": "F4-C8",
+  "similarInstruments": [
+    "inst_marimba",
+    "inst_glockenspiel"
+  ],
+  "minorInstrumentScore": 0.5,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

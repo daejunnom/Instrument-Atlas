@@ -1,0 +1,37 @@
+{
+  "id": "inst_tambourine",
+  "family": "Cymbals & Metals",
+  "subfamily": null,
+  "tags": [
+    "percussion",
+    "jingle",
+    "rhythm"
+  ],
+  "regions": [
+    "Global",
+    "Europe"
+  ],
+  "materials": [
+    "Wood",
+    "Metal"
+  ],
+  "playingMethods": [
+    "Struck",
+    "Shaken"
+  ],
+  "isPercussive": true,
+  "isPitched": false,
+  "pitchRange": null,
+  "similarInstruments": [
+    "inst_shaker"
+  ],
+  "minorInstrumentScore": 0.3,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

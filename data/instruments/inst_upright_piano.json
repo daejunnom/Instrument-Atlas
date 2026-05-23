@@ -1,0 +1,35 @@
+{
+  "id": "inst_upright_piano",
+  "family": "Keys",
+  "subfamily": null,
+  "tags": [
+    "keyboard",
+    "acoustic",
+    "cozy",
+    "pop"
+  ],
+  "regions": [
+    "Global"
+  ],
+  "materials": [
+    "Wood"
+  ],
+  "playingMethods": [
+    "Struck"
+  ],
+  "isPercussive": true,
+  "isPitched": true,
+  "pitchRange": "A0-C8",
+  "similarInstruments": [
+    "inst_grand_piano"
+  ],
+  "minorInstrumentScore": 0.2,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

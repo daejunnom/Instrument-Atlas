@@ -1,0 +1,36 @@
+{
+  "id": "inst_wind_howl",
+  "family": "FX & Foley",
+  "subfamily": null,
+  "tags": [
+    "foley",
+    "noise",
+    "nature",
+    "haunting",
+    "cold"
+  ],
+  "regions": [
+    "Global"
+  ],
+  "materials": [
+    "Air"
+  ],
+  "playingMethods": [
+    "Recorded"
+  ],
+  "isPercussive": false,
+  "isPitched": false,
+  "pitchRange": null,
+  "similarInstruments": [],
+  "minorInstrumentScore": 0.6,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q12301",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q12301"
+    ],
+    "license": "Public Domain"
+  }
+}

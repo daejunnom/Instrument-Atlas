@@ -1,0 +1,36 @@
+{
+  "id": "inst_bongos",
+  "family": "Drums & Percussion",
+  "subfamily": null,
+  "tags": [
+    "percussion",
+    "handdrum",
+    "latin"
+  ],
+  "regions": [
+    "Cuba",
+    "Latin America"
+  ],
+  "materials": [
+    "Wood",
+    "Leather"
+  ],
+  "playingMethods": [
+    "Struck"
+  ],
+  "isPercussive": true,
+  "isPitched": true,
+  "pitchRange": null,
+  "similarInstruments": [
+    "inst_congas"
+  ],
+  "minorInstrumentScore": 0.5,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

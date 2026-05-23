@@ -1,0 +1,44 @@
+{
+  "id": "inst_tuba",
+  "family": "Brass",
+  "subfamily": null,
+  "tags": [
+    "brass",
+    "bass",
+    "deep horn",
+    "oompah",
+    "low-end",
+    "orchestral",
+    "heavy",
+    "marching"
+  ],
+  "regions": [
+    "Europe",
+    "Global"
+  ],
+  "materials": [
+    "Brass"
+  ],
+  "playingMethods": [
+    "Blown",
+    "Blown into cup mouthpiece / Valves"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": "F1-F4",
+  "similarInstruments": [
+    "inst_trombone",
+    "inst_bassoon"
+  ],
+  "minorInstrumentScore": 0.4,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q11124",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q11124"
+    ],
+    "license": "Creative Commons CC0"
+  }
+}

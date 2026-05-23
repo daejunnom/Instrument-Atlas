@@ -1,0 +1,40 @@
+{
+  "id": "inst_recorder",
+  "family": "Woodwinds",
+  "subfamily": null,
+  "tags": [
+    "wind",
+    "fipple",
+    "baroque",
+    "simple"
+  ],
+  "regions": [
+    "Europe",
+    "Global"
+  ],
+  "materials": [
+    "Wood",
+    "Plastic"
+  ],
+  "playingMethods": [
+    "Blown"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": "C4-D6",
+  "similarInstruments": [
+    "inst_flute",
+    "inst_pan_flute"
+  ],
+  "minorInstrumentScore": 0.35,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q11473",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q11473"
+    ],
+    "license": "Creative Commons CC0"
+  }
+}

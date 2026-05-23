@@ -1,0 +1,39 @@
+{
+  "id": "inst_vibraphone",
+  "family": "Bells & Idiophones",
+  "subfamily": null,
+  "tags": [
+    "mallet",
+    "metal",
+    "jazz",
+    "resonant"
+  ],
+  "regions": [
+    "Americas"
+  ],
+  "materials": [
+    "Aluminum",
+    "Electric Motor"
+  ],
+  "playingMethods": [
+    "Struck with Mallets"
+  ],
+  "isPercussive": true,
+  "isPitched": true,
+  "pitchRange": "F3-F6",
+  "similarInstruments": [
+    "inst_marimba",
+    "inst_glockenspiel"
+  ],
+  "minorInstrumentScore": 0.45,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q207185",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q207185"
+    ],
+    "license": "Creative Commons CC0"
+  }
+}

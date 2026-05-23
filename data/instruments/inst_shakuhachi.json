@@ -1,0 +1,39 @@
+{
+  "id": "inst_shakuhachi",
+  "family": "World / Traditional",
+  "subfamily": null,
+  "tags": [
+    "wind",
+    "bamboo",
+    "breathy",
+    "zen",
+    "expressive"
+  ],
+  "regions": [
+    "Japan"
+  ],
+  "materials": [
+    "Bamboo"
+  ],
+  "playingMethods": [
+    "Blown"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": "D4-D7",
+  "similarInstruments": [
+    "inst_flute",
+    "inst_pan_flute"
+  ],
+  "minorInstrumentScore": 0.85,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q599182",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q599182"
+    ],
+    "license": "Public Domain"
+  }
+}

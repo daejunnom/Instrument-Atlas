@@ -1,0 +1,35 @@
+{
+  "id": "inst_choir",
+  "family": "Vocals",
+  "subfamily": null,
+  "tags": [
+    "voice",
+    "ensemble",
+    "epic",
+    "sustained vocals"
+  ],
+  "regions": [
+    "Global"
+  ],
+  "materials": [
+    "Vocal Cords"
+  ],
+  "playingMethods": [
+    "Sung"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": null,
+  "similarInstruments": [
+    "inst_synth_pad"
+  ],
+  "minorInstrumentScore": 0.3,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

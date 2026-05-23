@@ -1,0 +1,38 @@
+{
+  "id": "inst_thunder",
+  "family": "FX & Foley",
+  "subfamily": null,
+  "tags": [
+    "foley",
+    "impact",
+    "nature",
+    "loud",
+    "scary"
+  ],
+  "regions": [
+    "Global"
+  ],
+  "materials": [
+    "Atmosphere"
+  ],
+  "playingMethods": [
+    "Recorded"
+  ],
+  "isPercussive": true,
+  "isPitched": false,
+  "pitchRange": null,
+  "similarInstruments": [
+    "inst_timpani"
+  ],
+  "minorInstrumentScore": 0.65,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q9503",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q9503"
+    ],
+    "license": "Public Domain"
+  }
+}

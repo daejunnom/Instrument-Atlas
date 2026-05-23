@@ -1,0 +1,36 @@
+{
+  "id": "inst_vocal_chops",
+  "family": "Vocals",
+  "subfamily": null,
+  "tags": [
+    "voice",
+    "electronic",
+    "sampled",
+    "stutter"
+  ],
+  "regions": [
+    "Global"
+  ],
+  "materials": [
+    "Electronics",
+    "Vocal Cords"
+  ],
+  "playingMethods": [
+    "Sampled"
+  ],
+  "isPercussive": true,
+  "isPitched": true,
+  "pitchRange": null,
+  "similarInstruments": [
+    "inst_modular_synth"
+  ],
+  "minorInstrumentScore": 0.4,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

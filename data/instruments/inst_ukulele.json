@@ -1,0 +1,46 @@
+{
+  "id": "inst_ukulele",
+  "family": "Guitars",
+  "subfamily": null,
+  "tags": [
+    "string",
+    "acoustic",
+    "plucked",
+    "bright",
+    "cheery",
+    "cozy",
+    "happy",
+    "hawaiian"
+  ],
+  "regions": [
+    "Hawaii",
+    "Polynesia"
+  ],
+  "materials": [
+    "Wood",
+    "Nylon Strings"
+  ],
+  "playingMethods": [
+    "Strummed",
+    "Plucked",
+    "Fingerpicked"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": "G4-C6",
+  "similarInstruments": [
+    "inst_acoustic_guitar",
+    "inst_banjo"
+  ],
+  "minorInstrumentScore": 0.3,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q131350",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q131350"
+    ],
+    "license": "Creative Commons CC0"
+  }
+}

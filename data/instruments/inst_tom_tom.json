@@ -1,0 +1,34 @@
+{
+  "id": "inst_tom_tom",
+  "family": "Drums & Percussion",
+  "subfamily": null,
+  "tags": [
+    "drums",
+    "fill",
+    "tribal"
+  ],
+  "regions": [
+    "Global"
+  ],
+  "materials": [
+    "Wood"
+  ],
+  "playingMethods": [
+    "Struck"
+  ],
+  "isPercussive": true,
+  "isPitched": true,
+  "pitchRange": null,
+  "similarInstruments": [
+    "inst_congas"
+  ],
+  "minorInstrumentScore": 0.3,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

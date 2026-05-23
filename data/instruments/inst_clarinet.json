@@ -1,0 +1,38 @@
+{
+  "id": "inst_clarinet",
+  "family": "Woodwinds",
+  "subfamily": null,
+  "tags": [
+    "woodwind",
+    "single-reed",
+    "mellow",
+    "liquid"
+  ],
+  "regions": [
+    "Europe",
+    "Global"
+  ],
+  "materials": [
+    "Wood",
+    "Ebonite"
+  ],
+  "playingMethods": [
+    "Blown"
+  ],
+  "isPercussive": false,
+  "isPitched": true,
+  "pitchRange": "D3-A6",
+  "similarInstruments": [
+    "inst_flute",
+    "inst_oboe"
+  ],
+  "minorInstrumentScore": 0.4,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

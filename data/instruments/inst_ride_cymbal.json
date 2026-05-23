@@ -1,0 +1,35 @@
+{
+  "id": "inst_ride_cymbal",
+  "family": "Cymbals & Metals",
+  "subfamily": null,
+  "tags": [
+    "metal",
+    "cymbals",
+    "ping",
+    "jazz"
+  ],
+  "regions": [
+    "Global"
+  ],
+  "materials": [
+    "Metal"
+  ],
+  "playingMethods": [
+    "Struck"
+  ],
+  "isPercussive": true,
+  "isPitched": true,
+  "pitchRange": null,
+  "similarInstruments": [
+    "inst_hihat"
+  ],
+  "minorInstrumentScore": 0.3,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

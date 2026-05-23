@@ -1,0 +1,37 @@
+{
+  "id": "inst_glockenspiel",
+  "family": "Bells & Idiophones",
+  "subfamily": null,
+  "tags": [
+    "mallet",
+    "metal",
+    "crystalline",
+    "chimeric"
+  ],
+  "regions": [
+    "Europe",
+    "Global"
+  ],
+  "materials": [
+    "Metal"
+  ],
+  "playingMethods": [
+    "Struck"
+  ],
+  "isPercussive": true,
+  "isPitched": true,
+  "pitchRange": "G5-C8",
+  "similarInstruments": [
+    "inst_triangle",
+    "inst_xylophone"
+  ],
+  "minorInstrumentScore": 0.6,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

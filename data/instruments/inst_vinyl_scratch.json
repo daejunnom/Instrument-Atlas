@@ -1,0 +1,35 @@
+{
+  "id": "inst_vinyl_scratch",
+  "family": "FX & Foley",
+  "subfamily": null,
+  "tags": [
+    "turntable",
+    "hiphop",
+    "rhythm",
+    "scratchy"
+  ],
+  "regions": [
+    "Global",
+    "Americas"
+  ],
+  "materials": [
+    "Vinyl Record",
+    "Needle"
+  ],
+  "playingMethods": [
+    "Scratched"
+  ],
+  "isPercussive": true,
+  "isPitched": false,
+  "pitchRange": null,
+  "similarInstruments": [],
+  "minorInstrumentScore": 0.6,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

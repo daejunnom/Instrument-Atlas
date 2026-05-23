@@ -1,0 +1,41 @@
+{
+  "id": "inst_hurdy_gurdy",
+  "family": "World / Traditional",
+  "subfamily": null,
+  "tags": [
+    "string",
+    "bowed-wheel",
+    "drone",
+    "medieval",
+    "folk"
+  ],
+  "regions": [
+    "Europe"
+  ],
+  "materials": [
+    "Wood",
+    "Cranking Wheel",
+    "Keys"
+  ],
+  "playingMethods": [
+    "Cranked Wheel friction against strings / Keyed notes"
+  ],
+  "isPercussive": true,
+  "isPitched": true,
+  "pitchRange": "G2-G5",
+  "similarInstruments": [
+    "inst_bagpipes",
+    "inst_shamisen"
+  ],
+  "minorInstrumentScore": 0.9,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q192314",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q192314"
+    ],
+    "license": "Creative Commons CC0"
+  }
+}

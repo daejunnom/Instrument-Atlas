@@ -1,0 +1,40 @@
+{
+  "id": "inst_pipa",
+  "family": "World / Traditional",
+  "subfamily": null,
+  "tags": [
+    "string",
+    "pluck",
+    "bright",
+    "expressive",
+    "oriental"
+  ],
+  "regions": [
+    "China"
+  ],
+  "materials": [
+    "Wood",
+    "Silk Strings / Nylon"
+  ],
+  "playingMethods": [
+    "Finger-plucked with artificial nails"
+  ],
+  "isPercussive": true,
+  "isPitched": true,
+  "pitchRange": "A2-D6",
+  "similarInstruments": [
+    "inst_banjo",
+    "inst_guzheng"
+  ],
+  "minorInstrumentScore": 0.8,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q1047910",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q1047910"
+    ],
+    "license": "Creative Commons CC0"
+  }
+}

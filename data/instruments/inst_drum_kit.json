@@ -1,0 +1,36 @@
+{
+  "id": "inst_drum_kit",
+  "family": "Drums & Percussion",
+  "subfamily": null,
+  "tags": [
+    "drums",
+    "percussion",
+    "rhythm",
+    "acoustic"
+  ],
+  "regions": [
+    "Global",
+    "Americas"
+  ],
+  "materials": [
+    "Wood",
+    "Metal",
+    "Plastic"
+  ],
+  "playingMethods": [
+    "Struck"
+  ],
+  "isPercussive": true,
+  "isPitched": false,
+  "pitchRange": null,
+  "similarInstruments": [],
+  "minorInstrumentScore": 0.1,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": null,
+    "sourceRefs": [],
+    "license": "CC0"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "inst_steelpan",
+  "family": "Bells & Idiophones",
+  "subfamily": null,
+  "tags": [
+    "metal",
+    "caribbean",
+    "tropical",
+    "pitched-percussion"
+  ],
+  "regions": [
+    "Trinidad and Tobago",
+    "Caribbean"
+  ],
+  "materials": [
+    "Oil Drum Steel"
+  ],
+  "playingMethods": [
+    "Struck with Rubber Mallets"
+  ],
+  "isPercussive": true,
+  "isPitched": true,
+  "pitchRange": "C3-F6",
+  "similarInstruments": [
+    "inst_marimba",
+    "inst_glockenspiel"
+  ],
+  "minorInstrumentScore": 0.75,
+  "packIds": [
+    "core"
+  ],
+  "metadata": {
+    "wikidataId": "Q11116",
+    "sourceRefs": [
+      "https://www.wikidata.org/wiki/Q11116"
+    ],
+    "license": "Creative Commons CC0"
+  }
+}
