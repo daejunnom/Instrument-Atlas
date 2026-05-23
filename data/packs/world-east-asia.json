@@ -1,0 +1,20 @@
+{
+  "id": "world-east-asia",
+  "level": 2,
+  "title": "World: East Asia",
+  "description": "Traditional and regional instruments from East Asia.",
+  "category": "standard",
+  "defaultEnabled": false,
+  "recommended": false,
+  "sortOrder": 4,
+  "instrumentIds": [
+    "inst_erhu",
+    "inst_guzheng",
+    "inst_koto",
+    "inst_pipa",
+    "inst_shakuhachi",
+    "inst_shamisen",
+    "inst_sitar",
+    "inst_tabla"
+  ]
+}

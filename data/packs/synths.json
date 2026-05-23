@@ -1,0 +1,17 @@
+{
+  "id": "synths",
+  "level": 2,
+  "title": "Synths",
+  "description": "Synthesizers, electronic tones, and synthetic sound sources.",
+  "category": "standard",
+  "defaultEnabled": false,
+  "recommended": true,
+  "sortOrder": 7,
+  "instrumentIds": [
+    "inst_modular_synth",
+    "inst_sub_bass",
+    "inst_synth_bass",
+    "inst_synth_pad",
+    "inst_theremin"
+  ]
+}

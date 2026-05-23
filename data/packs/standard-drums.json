@@ -1,0 +1,24 @@
+{
+  "id": "standard-drums",
+  "level": 2,
+  "title": "Standard Drums",
+  "description": "Common drum kit, cymbal, percussion, and rhythm instruments.",
+  "category": "standard",
+  "defaultEnabled": false,
+  "recommended": true,
+  "sortOrder": 2,
+  "instrumentIds": [
+    "inst_cajon",
+    "inst_cowbell",
+    "inst_djembe",
+    "inst_glockenspiel",
+    "inst_gong",
+    "inst_marimba",
+    "inst_music_box",
+    "inst_steelpan",
+    "inst_timpani",
+    "inst_triangle",
+    "inst_vibraphone",
+    "inst_xylophone"
+  ]
+}

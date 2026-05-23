@@ -24,6 +24,12 @@ Thumbs.db
 .vscode/
 .idea/
 
+# Local helper tools
+_import/
+_local/
+project_bundle.txt
+package-bundle.txt
+
 # Audio sample files should not be stored in this repository
 *.wav
 *.mp3

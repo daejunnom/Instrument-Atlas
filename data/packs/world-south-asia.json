@@ -1,0 +1,20 @@
+{
+  "id": "world-south-asia",
+  "level": 2,
+  "title": "World: South Asia",
+  "description": "Traditional and regional instruments from South Asia.",
+  "category": "standard",
+  "defaultEnabled": false,
+  "recommended": false,
+  "sortOrder": 5,
+  "instrumentIds": [
+    "inst_bagpipes",
+    "inst_balalaika",
+    "inst_berimbau",
+    "inst_bouzouki",
+    "inst_didgeridoo",
+    "inst_harmonica",
+    "inst_hurdy_gurdy",
+    "inst_kalimba"
+  ]
+}

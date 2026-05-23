@@ -1,0 +1,20 @@
+{
+  "id": "foley",
+  "level": 2,
+  "title": "Foley & Sound Effects",
+  "description": "Foley, environmental, texture, and non-musical sound sources.",
+  "category": "standard",
+  "defaultEnabled": false,
+  "recommended": true,
+  "sortOrder": 6,
+  "instrumentIds": [
+    "inst_door_slam",
+    "inst_ocean_waves",
+    "inst_rain_ambient",
+    "inst_tape_hiss",
+    "inst_thunder",
+    "inst_vinyl_scratch",
+    "inst_white_noise_swoosh",
+    "inst_wind_howl"
+  ]
+}

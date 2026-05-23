@@ -1,0 +1,28 @@
+{
+  "id": "standard-orchestral",
+  "level": 2,
+  "title": "Standard Orchestral",
+  "description": "Common orchestral, vocal, brass, woodwind, and ensemble instruments.",
+  "category": "standard",
+  "defaultEnabled": false,
+  "recommended": true,
+  "sortOrder": 3,
+  "instrumentIds": [
+    "inst_bassoon",
+    "inst_beatbox",
+    "inst_brass_section",
+    "inst_choir",
+    "inst_clarinet",
+    "inst_flute",
+    "inst_french_horn",
+    "inst_oboe",
+    "inst_pan_flute",
+    "inst_piccolo",
+    "inst_recorder",
+    "inst_saxophone",
+    "inst_trombone",
+    "inst_trumpet",
+    "inst_tuba",
+    "inst_vocal_chops"
+  ]
+}

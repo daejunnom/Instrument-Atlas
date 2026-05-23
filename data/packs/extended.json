@@ -1,0 +1,14 @@
+{
+  "id": "extended",
+  "level": 3,
+  "title": "Extended Instruments",
+  "description": "Rare, minor, experimental, or specialized instruments and sound sources.",
+  "category": "extended",
+  "defaultEnabled": false,
+  "recommended": false,
+  "sortOrder": 8,
+  "instrumentIds": [
+    "inst_agogo",
+    "inst_break_drum"
+  ]
+}
