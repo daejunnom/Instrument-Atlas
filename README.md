@@ -313,6 +313,8 @@ dist/instruments/v1/
   indexes/
     search.en.json
     search.ko.json
+    pack-search.en.json
+    pack-search.ko.json
 
   packs/
     core.en.json
@@ -325,6 +327,10 @@ dist/instruments/v1/
 ```
 
 Applications should initially load `manifest.json`, then load the required search index or pack files on demand.
+
+Instrument search indexes are intended for finding individual instruments.
+
+Pack search indexes are intended for finding loadable instrument groups, onboarding presets, category bundles, and recommended pack selections.
 
 ## Release package
 
@@ -342,6 +348,8 @@ Expected zip contents:
 instruments/v1/manifest.json
 instruments/v1/indexes/search.en.json
 instruments/v1/indexes/search.ko.json
+instruments/v1/indexes/pack-search.en.json
+instruments/v1/indexes/pack-search.ko.json
 instruments/v1/packs/core.en.json
 instruments/v1/packs/core.ko.json
 ...
@@ -439,10 +447,19 @@ Expected successful build:
 Build OK
 Generated manifest: dist/instruments/v1/manifest.json
 Generated pack files: 24
-Generated search indexes: 2
+Generated search indexes: 4
 ```
 
-With 12 packs and 2 locales, the build should generate 24 localized pack files.
+With 12 packs and 2 locales, the build should generate 24 localized pack files and 4 localized search index files.
+
+The 4 search index files are:
+
+```txt
+search.en.json
+search.ko.json
+pack-search.en.json
+pack-search.ko.json
+```
 
 ## Contribution guide
 

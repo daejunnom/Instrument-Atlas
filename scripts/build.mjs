@@ -268,6 +268,98 @@ function buildSearchIndex(locale, instruments, localeEntries) {
   };
 }
 
+function buildPackSearchIndex(locale, packs, instruments, localeEntries) {
+  const items = packs
+    .map((pack) => {
+      const packInstruments = pack.instrumentIds
+        .map((instrumentId) => instruments.get(instrumentId))
+        .filter(Boolean);
+
+      const localizedInstruments = packInstruments
+        .map((instrument) => ({
+          instrument,
+          localeEntry: localeEntries.get(instrument.id)
+        }))
+        .filter(({ localeEntry }) => Boolean(localeEntry));
+
+      const families = uniq(packInstruments.map((instrument) => instrument.family))
+        .sort((a, b) => a.localeCompare(b));
+
+      const tags = uniq(packInstruments.flatMap((instrument) => instrument.tags))
+        .sort((a, b) => a.localeCompare(b));
+
+      const regions = uniq(packInstruments.flatMap((instrument) => instrument.regions))
+        .sort((a, b) => a.localeCompare(b));
+
+      const materials = uniq(packInstruments.flatMap((instrument) => instrument.materials))
+        .sort((a, b) => a.localeCompare(b));
+
+      const playingMethods = uniq(packInstruments.flatMap((instrument) => instrument.playingMethods))
+        .sort((a, b) => a.localeCompare(b));
+
+      const searchableText = uniq([
+        pack.id,
+        pack.title,
+        pack.description,
+        pack.category,
+        `level ${pack.level}`,
+        pack.defaultEnabled ? 'default enabled' : null,
+        pack.recommended ? 'recommended' : null,
+        ...families,
+        ...tags,
+        ...regions,
+        ...materials,
+        ...playingMethods,
+        ...localizedInstruments.flatMap(({ instrument, localeEntry }) => [
+          instrument.id,
+          localeEntry.name,
+          ...localeEntry.aliases,
+          ...localeEntry.searchKeywords,
+          localeEntry.description,
+          instrument.family,
+          instrument.subfamily,
+          ...instrument.tags,
+          ...instrument.regions,
+          ...instrument.materials,
+          ...instrument.playingMethods
+        ])
+      ]).join(' ');
+
+      return {
+        id: pack.id,
+        title: pack.title,
+        description: pack.description,
+        category: pack.category,
+        level: pack.level,
+        defaultEnabled: pack.defaultEnabled,
+        recommended: pack.recommended,
+        sortOrder: pack.sortOrder,
+        instrumentCount: pack.instrumentIds.length,
+        instrumentIds: pack.instrumentIds,
+        families,
+        tags,
+        regions,
+        materials,
+        playingMethods,
+        searchableText
+      };
+    })
+    .sort((a, b) => {
+      if (a.level !== b.level) return a.level - b.level;
+      if (a.sortOrder !== b.sortOrder) return a.sortOrder - b.sortOrder;
+      return a.id.localeCompare(b.id);
+    });
+
+  return {
+    schemaVersion: 1,
+    atlasVersion: loadPackageVersion(),
+    locale,
+    generatedAt: new Date().toISOString(),
+    count: items.length,
+    items
+  };
+}
+
 function buildManifest({ version, packs, locales, instruments, taxonomySummary }) {
   const packEntries = packs.map((pack) => {
     const files = {};
@@ -290,10 +382,12 @@ function buildManifest({ version, packs, locales, instruments, taxonomySummary }
     };
   });
 
-  const indexEntries = {};
+  const searchIndexEntries = {};
+  const packSearchIndexEntries = {};
 
   for (const locale of locales.keys()) {
-    indexEntries[locale] = `indexes/search.${locale}.json`;
+    searchIndexEntries[locale] = `indexes/search.${locale}.json`;
+    packSearchIndexEntries[locale] = `indexes/pack-search.${locale}.json`;
   }
 
   return {
@@ -309,7 +403,8 @@ function buildManifest({ version, packs, locales, instruments, taxonomySummary }
     },
     taxonomy: taxonomySummary,
     indexes: {
-      search: indexEntries
+      search: searchIndexEntries,
+      packSearch: packSearchIndexEntries
     },
     packs: packEntries
   };
@@ -343,9 +438,14 @@ function main() {
   let indexFileCount = 0;
 
   for (const [locale, localeEntries] of locales.entries()) {
-    const index = buildSearchIndex(locale, instruments, localeEntries);
-    const outputPath = path.join(paths.distIndexes, `search.${locale}.json`);
-    writeJson(outputPath, index);
+    const instrumentSearchIndex = buildSearchIndex(locale, instruments, localeEntries);
+    const instrumentSearchOutputPath = path.join(paths.distIndexes, `search.${locale}.json`);
+    writeJson(instrumentSearchOutputPath, instrumentSearchIndex);
+    indexFileCount += 1;
+
+    const packSearchIndex = buildPackSearchIndex(locale, packs, instruments, localeEntries);
+    const packSearchOutputPath = path.join(paths.distIndexes, `pack-search.${locale}.json`);
+    writeJson(packSearchOutputPath, packSearchIndex);
     indexFileCount += 1;
   }
 
