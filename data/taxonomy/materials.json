@@ -1,5 +1,33 @@
 {
   "version": "0.1.0",
-  "mode": "loose",
-  "values": []
+  "mode": "canonical",
+  "description": "Canonical broad material categories used by instrument metadata.",
+  "values": [
+    "Air",
+    "Bamboo",
+    "Bone",
+    "Brass",
+    "Bronze",
+    "Cane",
+    "Clay",
+    "Copper",
+    "Electronics",
+    "Gourd",
+    "Leather",
+    "Metal",
+    "Nylon",
+    "Paper",
+    "Plastic",
+    "Reed",
+    "Rubber",
+    "Skin",
+    "Steel",
+    "String",
+    "Tape",
+    "Vinyl",
+    "Voice",
+    "Water",
+    "Wax",
+    "Wood"
+  ]
 }

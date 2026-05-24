@@ -14,12 +14,12 @@
     "Global"
   ],
   "materials": [
-    "Wood",
-    "Plastic Codes",
-    "Metal Reeds"
+    "Plastic",
+    "Reed",
+    "Wood"
   ],
   "playingMethods": [
-    "Bellows squeezed with Keys / Buttons"
+    "Bellows"
   ],
   "isPercussive": false,
   "isPitched": true,

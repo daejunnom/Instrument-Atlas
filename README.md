@@ -180,9 +180,8 @@ This separation keeps core instrument metadata independent from translation data
     "Europe"
   ],
   "materials": [
-    "Wood",
     "Metal",
-    "Ivory"
+    "Wood"
   ],
   "playingMethods": [
     "Struck"

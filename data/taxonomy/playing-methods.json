@@ -1,12 +1,16 @@
 {
   "version": "0.1.0",
-  "mode": "loose",
-  "recommendedValues": [
+  "mode": "canonical",
+  "description": "Canonical broad playing methods used by instrument metadata.",
+  "values": [
+    "Bellows",
     "Blown",
     "Bowed",
+    "Cranked",
     "Filtered",
     "Fingerpicked",
     "Generative",
+    "Hand-controlled",
     "Played",
     "Plucked",
     "Pressed",

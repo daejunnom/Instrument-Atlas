@@ -10,16 +10,16 @@
     "scottish"
   ],
   "regions": [
-    "Scotland",
-    "Europe"
+    "Europe",
+    "Scotland"
   ],
   "materials": [
-    "Leather bag",
-    "Wood chanter",
-    "Reeds"
+    "Leather",
+    "Reed",
+    "Wood"
   ],
   "playingMethods": [
-    "Squeezed bag and blown"
+    "Blown"
   ],
   "isPercussive": false,
   "isPitched": true,

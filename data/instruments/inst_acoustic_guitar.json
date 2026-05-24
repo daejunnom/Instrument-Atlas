@@ -9,13 +9,13 @@
     "strummed"
   ],
   "regions": [
-    "Global",
+    "Americas",
     "Europe",
-    "Americas"
+    "Global"
   ],
   "materials": [
-    "Wood",
-    "Metal"
+    "Metal",
+    "Wood"
   ],
   "playingMethods": [
     "Plucked",
