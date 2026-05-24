@@ -32,52 +32,6 @@
   "packIds": [
     "core"
   ],
-  "frequencyProfile": {
-    "type": "estimated",
-    "confidence": "medium",
-    "fundamentalRangeHz": [
-      27.5,
-      4186
-    ],
-    "prominentBands": [
-      {
-        "role": "low_body",
-        "rangeHz": [
-          80,
-          250
-        ],
-        "description": "Low body and weight"
-      },
-      {
-        "role": "mid_body",
-        "rangeHz": [
-          250,
-          1000
-        ],
-        "description": "Main note body and harmonic density"
-      },
-      {
-        "role": "presence",
-        "rangeHz": [
-          2000,
-          5000
-        ],
-        "description": "Hammer attack and clarity"
-      }
-    ],
-    "transientBands": [
-      {
-        "role": "hammer_attack",
-        "rangeHz": [
-          2000,
-          6000
-        ],
-        "description": "Hammer attack and articulation"
-      }
-    ],
-    "noiseBands": [],
-    "notes": "Fundamental range follows standard piano pitch range. Prominent bands are practical mix-oriented estimates."
-  },
   "metadata": {
     "wikidataId": "Q5994",
     "sourceRefs": [],

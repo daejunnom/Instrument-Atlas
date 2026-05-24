@@ -185,10 +185,6 @@ function mergeInstrumentWithLocale(instrument, localeEntry) {
     minorInstrumentScore: instrument.minorInstrumentScore,
     packIds: instrument.packIds,
 
-    ...(instrument.frequencyProfile
-      ? { frequencyProfile: instrument.frequencyProfile }
-      : {}),
-
     metadata: instrument.metadata
   };
 }

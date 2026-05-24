@@ -47,17 +47,10 @@ const REQUIRED_PACK_FIELDS = [
   'instrumentIds'
 ];
 
-const VALID_FREQUENCY_PROFILE_TYPES = new Set([
-  'estimated',
-  'measured',
-  'derived',
-  'unknown'
-]);
-
-const VALID_CONFIDENCE_VALUES = new Set([
-  'low',
-  'medium',
-  'high'
+const PLANNED_INSTRUMENT_FIELDS = new Set([
+  'frequencyProfile',
+  'motionProfile',
+  'isolationHints'
 ]);
 
 const errors = [];
@@ -189,85 +182,13 @@ function validateTaxonomyArray(values, allowedValues, context) {
   }
 }
 
-function validateRangeHz(value, context) {
-  if (value === null) return;
-
-  if (!Array.isArray(value) || value.length !== 2) {
-    fail(`${context} must be null or [minHz, maxHz].`);
-    return;
-  }
-
-  const [min, max] = value;
-
-  if (typeof min !== 'number' || typeof max !== 'number') {
-    fail(`${context} must contain numbers.`);
-    return;
-  }
-
-  if (min < 0 || max < 0 || min >= max) {
-    fail(`${context} must satisfy 0 <= min < max.`);
-  }
-}
-
-function validateFrequencyBandObject(value, context) {
-  if (!isPlainObject(value)) {
-    fail(`${context} must be an object.`);
-    return;
-  }
-
-  if (typeof value.role !== 'string' || value.role.trim() === '') {
-    fail(`${context}.role must be a non-empty string.`);
-  }
-
-  validateRangeHz(value.rangeHz, `${context}.rangeHz`);
-
-  if (
-    value.description !== undefined &&
-    typeof value.description !== 'string'
-  ) {
-    fail(`${context}.description must be a string when present.`);
-  }
-}
-
-function validateFrequencyProfile(instrument) {
-  const profile = instrument.frequencyProfile;
-
-  if (profile === undefined) return;
-
-  const context = `Instrument "${instrument.id}" frequencyProfile`;
-
-  if (!isPlainObject(profile)) {
-    fail(`${context} must be an object.`);
-    return;
-  }
-
-  if (!VALID_FREQUENCY_PROFILE_TYPES.has(profile.type)) {
-    fail(
-      `${context}.type must be one of: ${Array.from(VALID_FREQUENCY_PROFILE_TYPES).join(', ')}.`
-    );
-  }
-
-  if (!VALID_CONFIDENCE_VALUES.has(profile.confidence)) {
-    fail(
-      `${context}.confidence must be one of: ${Array.from(VALID_CONFIDENCE_VALUES).join(', ')}.`
-    );
-  }
-
-  validateRangeHz(profile.fundamentalRangeHz, `${context}.fundamentalRangeHz`);
-
-  for (const field of ['prominentBands', 'transientBands', 'noiseBands']) {
-    if (!Array.isArray(profile[field])) {
-      fail(`${context}.${field} must be an array.`);
-      continue;
+function validateNoPlannedInstrumentFields(instrument) {
+  for (const field of PLANNED_INSTRUMENT_FIELDS) {
+    if (field in instrument) {
+      fail(
+        `Instrument "${instrument.id}" contains planned field "${field}". Move this metadata to docs/planned/ before enabling it in active source data.`
+      );
     }
-
-    profile[field].forEach((band, index) => {
-      validateFrequencyBandObject(band, `${context}.${field}[${index}]`);
-    });
-  }
-
-  if (profile.notes !== undefined && typeof profile.notes !== 'string') {
-    fail(`${context}.notes must be a string when present.`);
   }
 }
 
@@ -401,7 +322,7 @@ function loadInstruments(
       );
     }
 
-    validateFrequencyProfile(instrument);
+    validateNoPlannedInstrumentFields(instrument);
 
     instruments.set(instrument.id, {
       fileName,

@@ -4,7 +4,7 @@ Instrument Atlas is a multilingual metadata catalog for musical instruments and 
 
 It provides structured, app-friendly JSON data for music generation tools, video editors, audio editors, sample browsers, educational tools, search systems, and other creative applications.
 
-Instrument Atlas is not an audio sample repository. It does not store sound files. Instead, it focuses on metadata such as instrument names, aliases, multilingual labels, categories, packs, regions, materials, playing methods, search keywords, related instruments, rarity information, optional frequency profiles, and source/license metadata.
+Instrument Atlas is not an audio sample repository. It does not store sound files. Instead, it focuses on metadata such as instrument names, aliases, multilingual labels, categories, packs, regions, materials, playing methods, search keywords, related instruments, rarity information, and source/license metadata.
 
 ## Goals
 
@@ -51,7 +51,7 @@ Current source data includes:
 96 instruments and sound sources
 12 packs
 2 locales: en, ko
-7 taxonomy files
+6 taxonomy files
 validation script
 runtime catalog build script
 release package script
@@ -90,12 +90,17 @@ instrument-atlas/
 
     taxonomy/
       families.json
-      frequency-bands.json
       licenses.json
       materials.json
       playing-methods.json
       regions.json
       tags.json
+
+  docs/
+    planned/
+      frequency-profile.md
+      motion-profile.md
+      isolation-hints.md
 
   locales/
     en/
@@ -138,7 +143,7 @@ instrument-atlas/
 5. This repository provides metadata only.
 6. Applications should consume versioned release artifacts, not the latest branch state.
 7. External contributors should be able to add or edit one instrument without touching the whole dataset.
-8. Optional advanced metadata such as frequency profiles should remain optional and additive.
+8. Planned advanced metadata should be documented before it is added to active source data.
 
 ## Data model
 
@@ -228,41 +233,27 @@ Instrument source files should not contain localized names or localized descript
 }
 ```
 
-## Optional frequency profile metadata
+## Planned advanced metadata
 
-Some instruments may include optional `frequencyProfile` metadata.
+Some advanced metadata is intentionally kept out of active source data until the project has stronger data policies and validation rules.
 
-This data is intended as a practical hint for search, filtering, analysis, or audio-tool integrations. It is not required for every instrument.
+Current planned metadata:
 
-Example:
-
-```json
-{
-  "frequencyProfile": {
-    "type": "estimated",
-    "confidence": "medium",
-    "fundamentalRangeHz": [
-      40,
-      120
-    ],
-    "prominentBands": [
-      {
-        "role": "sub",
-        "rangeHz": [
-          40,
-          80
-        ],
-        "description": "Low-end weight and thump"
-      }
-    ],
-    "transientBands": [],
-    "noiseBands": [],
-    "notes": "Estimated mix-oriented profile. Actual values vary by tuning, sample, and processing."
-  }
-}
+```txt
+docs/planned/frequency-profile.md
+docs/planned/motion-profile.md
+docs/planned/isolation-hints.md
 ```
 
-Frequency metadata should be treated as optional and approximate unless backed by measured or cited data.
+The following fields are planned metadata, not active source metadata:
+
+```txt
+frequencyProfile
+motionProfile
+isolationHints
+```
+
+Active instrument source files must not include these fields yet.
 
 ## Packs
 
@@ -420,7 +411,7 @@ The validation script checks:
 - Material taxonomy values
 - Playing method taxonomy values
 - Empty packs
-- Optional `frequencyProfile` structure
+- Planned metadata fields are not present in active instrument source files
 
 ## Build process
 
@@ -474,7 +465,7 @@ You can contribute by:
 - Adding source references
 - Fixing taxonomy values
 - Improving validation or build scripts
-- Adding optional frequency metadata where useful
+- Improving planned metadata proposals under `docs/planned/`
 
 Before opening a pull request, make sure:
 
@@ -532,7 +523,7 @@ Actual audio samples should not be included in this repository.
 - Normalize taxonomy values
 - Add more source references
 - Add Wikidata IDs where appropriate
-- Add or improve optional frequency profiles where useful
+- Define measured/estimated metadata policies for future frequency, motion, and isolation hint metadata
 
 ### Phase 3: Expanded catalog
 
