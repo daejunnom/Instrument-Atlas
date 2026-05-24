@@ -1,0 +1,20 @@
+{
+  "version": "0.1.0",
+  "description": "Canonical license identifiers used by instrument metadata.",
+  "values": [
+    "CC0-1.0",
+    "public_domain",
+    "unknown"
+  ],
+  "aliases": {
+    "CC0": "CC0-1.0",
+    "Creative Commons CC0": "CC0-1.0",
+    "CC0 1.0": "CC0-1.0",
+    "CC0-1.0": "CC0-1.0",
+    "Public Domain": "public_domain",
+    "public domain": "public_domain",
+    "public_domain": "public_domain",
+    "Unknown": "unknown",
+    "unknown": "unknown"
+  }
+}

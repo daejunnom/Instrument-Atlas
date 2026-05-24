@@ -51,7 +51,7 @@ Current source data includes:
 96 instruments and sound sources
 12 packs
 2 locales: en, ko
-6 taxonomy files
+7 taxonomy files
 validation script
 runtime catalog build script
 release package script
@@ -91,6 +91,7 @@ instrument-atlas/
     taxonomy/
       families.json
       frequency-bands.json
+      licenses.json
       materials.json
       playing-methods.json
       regions.json
@@ -200,7 +201,7 @@ This separation keeps core instrument metadata independent from translation data
   "metadata": {
     "wikidataId": "Q5994",
     "sourceRefs": [],
-    "license": "CC0"
+    "license": "CC0-1.0"
   }
 }
 ```
@@ -405,6 +406,7 @@ The validation script checks:
 - `minorInstrumentScore` range
 - Source reference URL format
 - Family taxonomy values
+- Metadata license taxonomy values
 - Empty packs
 - Optional `frequencyProfile` structure
 
@@ -461,6 +463,7 @@ Before opening a pull request, make sure:
 - Locale files match existing instrument IDs
 - Pack IDs are valid
 - Similar instrument references are valid
+- `metadata.license` uses a canonical value from `data/taxonomy/licenses.json`
 - Validation passes successfully
 
 Run:

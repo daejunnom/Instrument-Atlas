@@ -139,6 +139,17 @@ function loadTaxonomyValues(fileName, key = 'values') {
   return new Set(data[key]);
 }
 
+function validateTaxonomyValue(value, allowedValues, context) {
+  if (typeof value !== 'string' || value.trim() === '') {
+    fail(`${context} must be a non-empty string.`);
+    return;
+  }
+
+  if (!allowedValues.has(value)) {
+    fail(`${context} has unknown value "${value}".`);
+  }
+}
+
 function validateRangeHz(value, context) {
   if (value === null) return;
 
@@ -221,7 +232,7 @@ function validateFrequencyProfile(instrument) {
   }
 }
 
-function loadInstruments(familyValues) {
+function loadInstruments(familyValues, licenseValues) {
   const instruments = new Map();
 
   for (const fileName of listJsonFiles(paths.instruments)) {
@@ -315,9 +326,11 @@ function loadInstruments(familyValues) {
         }
       }
 
-      if (typeof instrument.metadata.license !== 'string' || instrument.metadata.license.trim() === '') {
-        fail(`Instrument "${instrument.id}" metadata.license must be a non-empty string.`);
-      }
+      validateTaxonomyValue(
+        instrument.metadata.license,
+        licenseValues,
+        `Instrument "${instrument.id}" metadata.license`
+      );
     }
 
     validateFrequencyProfile(instrument);
@@ -551,8 +564,9 @@ function validateReferences(instruments, packs) {
 
 function main() {
   const familyValues = loadTaxonomyValues('families.json');
+  const licenseValues = loadTaxonomyValues('licenses.json');
 
-  const instruments = loadInstruments(familyValues);
+  const instruments = loadInstruments(familyValues, licenseValues);
   const packs = loadPacks();
 
   validateReferences(instruments, packs);
