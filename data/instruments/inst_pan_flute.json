@@ -10,17 +10,17 @@
     "tribal"
   ],
   "regions": [
-    "Greece",
     "Andes",
     "Europe",
-    "Global"
+    "Global",
+    "Greece"
   ],
   "materials": [
-    "Cane Pipes",
-    "Bamboo"
+    "Bamboo",
+    "Cane"
   ],
   "playingMethods": [
-    "Blown across open pipes"
+    "Blown"
   ],
   "isPercussive": false,
   "isPitched": true,

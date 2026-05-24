@@ -13,12 +13,12 @@
     "Europe"
   ],
   "materials": [
-    "Wood",
-    "Cranking Wheel",
-    "Keys"
+    "Wood"
   ],
   "playingMethods": [
-    "Cranked Wheel friction against strings / Keyed notes"
+    "Bowed",
+    "Cranked",
+    "Pressed"
   ],
   "isPercussive": true,
   "isPitched": true,

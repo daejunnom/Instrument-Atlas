@@ -9,13 +9,13 @@
     "jazz"
   ],
   "regions": [
-    "Global",
+    "Americas",
     "Europe",
-    "Americas"
+    "Global"
   ],
   "materials": [
-    "Metal",
-    "Brass"
+    "Brass",
+    "Metal"
   ],
   "playingMethods": [
     "Blown"

@@ -14,11 +14,12 @@
     "Switzerland"
   ],
   "materials": [
-    "Steel Tines",
-    "Gear Cylinder"
+    "Metal",
+    "Steel"
   ],
   "playingMethods": [
-    "Rotated mechanical cylinder pluck"
+    "Cranked",
+    "Plucked"
   ],
   "isPercussive": false,
   "isPitched": true,

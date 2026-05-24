@@ -13,11 +13,12 @@
     "China"
   ],
   "materials": [
-    "Wood",
-    "Silk Strings / Nylon"
+    "Nylon",
+    "String",
+    "Wood"
   ],
   "playingMethods": [
-    "Finger-plucked with artificial nails"
+    "Plucked"
   ],
   "isPercussive": true,
   "isPitched": true,

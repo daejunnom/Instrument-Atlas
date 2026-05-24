@@ -14,11 +14,11 @@
     "Global"
   ],
   "materials": [
-    "Metal Tines",
+    "Steel",
     "Wood"
   ],
   "playingMethods": [
-    "Plucked with Thumbs"
+    "Plucked"
   ],
   "isPercussive": true,
   "isPitched": true,

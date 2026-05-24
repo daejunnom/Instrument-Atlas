@@ -14,11 +14,11 @@
     "Italy"
   ],
   "materials": [
-    "Wood",
-    "Metal Strings"
+    "Steel",
+    "Wood"
   ],
   "playingMethods": [
-    "Plucked with Plectrum / Tremolo"
+    "Plucked"
   ],
   "isPercussive": false,
   "isPitched": true,

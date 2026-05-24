@@ -14,11 +14,12 @@
     "Middle East"
   ],
   "materials": [
-    "Wood",
-    "Gut Strings"
+    "String",
+    "Wood"
   ],
   "playingMethods": [
-    "Fingerplucked"
+    "Fingerpicked",
+    "Plucked"
   ],
   "isPercussive": false,
   "isPitched": true,

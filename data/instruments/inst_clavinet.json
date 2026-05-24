@@ -12,20 +12,18 @@
     "processed"
   ],
   "regions": [
-    "Germany",
     "Americas",
+    "Germany",
     "Global"
   ],
   "materials": [
-    "Metal Tines",
-    "Wood",
-    "Metal Strings",
-    "Yarn dampeners",
-    "Pickups"
+    "Electronics",
+    "Steel",
+    "Textile",
+    "Wood"
   ],
   "playingMethods": [
-    "Struck",
-    "Struck strings mechanically via keys"
+    "Struck"
   ],
   "isPercussive": true,
   "isPitched": true,

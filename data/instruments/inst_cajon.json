@@ -10,15 +10,15 @@
     "flattish"
   ],
   "regions": [
-    "Peru",
-    "Latin America"
+    "Latin America",
+    "Peru"
   ],
   "materials": [
-    "Plywood Box",
-    "Snare Wires"
+    "Metal",
+    "Wood"
   ],
   "playingMethods": [
-    "Struck while sitting on the box"
+    "Struck"
   ],
   "isPercussive": true,
   "isPitched": false,

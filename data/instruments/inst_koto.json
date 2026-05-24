@@ -13,11 +13,12 @@
     "Japan"
   ],
   "materials": [
-    "Paulownia Wood",
-    "Silk / Nylon Strings"
+    "Nylon",
+    "String",
+    "Wood"
   ],
   "playingMethods": [
-    "Plucked with finger picks"
+    "Plucked"
   ],
   "isPercussive": false,
   "isPitched": true,

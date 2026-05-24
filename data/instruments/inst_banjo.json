@@ -10,13 +10,13 @@
     "bluegrass"
   ],
   "regions": [
-    "North America",
-    "Africa"
+    "Africa",
+    "North America"
   ],
   "materials": [
-    "Wood",
     "Metal",
-    "Plastic Head"
+    "Plastic",
+    "Wood"
   ],
   "playingMethods": [
     "Fingerpicked",

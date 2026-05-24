@@ -13,14 +13,13 @@
     "Global"
   ],
   "materials": [
-    "Wood",
+    "Electronics",
     "Metal",
-    "Electronics"
+    "Wood"
   ],
   "playingMethods": [
     "Plucked",
-    "Slapped",
-    "Picked"
+    "Slapped"
   ],
   "isPercussive": false,
   "isPitched": true,

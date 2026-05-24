@@ -13,11 +13,12 @@
     "Europe"
   ],
   "materials": [
-    "Metal Plates",
-    "Wood Cabinet"
+    "Metal",
+    "Wood"
   ],
   "playingMethods": [
-    "Struck via Keys"
+    "Pressed",
+    "Struck"
   ],
   "isPercussive": true,
   "isPitched": true,

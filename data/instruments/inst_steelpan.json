@@ -9,14 +9,14 @@
     "pitched-percussion"
   ],
   "regions": [
-    "Trinidad and Tobago",
-    "Caribbean"
+    "Caribbean",
+    "Trinidad and Tobago"
   ],
   "materials": [
-    "Oil Drum Steel"
+    "Steel"
   ],
   "playingMethods": [
-    "Struck with Rubber Mallets"
+    "Struck"
   ],
   "isPercussive": true,
   "isPitched": true,

@@ -10,13 +10,13 @@
     "jazz"
   ],
   "regions": [
-    "Global",
-    "Europe"
+    "Europe",
+    "Global"
   ],
   "materials": [
-    "Wood",
+    "Bone",
     "Metal",
-    "Ivory"
+    "Wood"
   ],
   "playingMethods": [
     "Struck"

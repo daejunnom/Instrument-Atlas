@@ -9,13 +9,13 @@
     "acoustic"
   ],
   "regions": [
-    "Global",
-    "Americas"
+    "Americas",
+    "Global"
   ],
   "materials": [
-    "Wood",
     "Metal",
-    "Plastic"
+    "Plastic",
+    "Wood"
   ],
   "playingMethods": [
     "Struck"

@@ -150,6 +150,17 @@ function validateTaxonomyValue(value, allowedValues, context) {
   }
 }
 
+function validateTaxonomyArray(values, allowedValues, context) {
+  if (!isStringArray(values)) {
+    fail(`${context} must be an array of strings.`);
+    return;
+  }
+
+  for (const value of values) {
+    validateTaxonomyValue(value, allowedValues, `${context}[]`);
+  }
+}
+
 function validateRangeHz(value, context) {
   if (value === null) return;
 
@@ -232,7 +243,13 @@ function validateFrequencyProfile(instrument) {
   }
 }
 
-function loadInstruments(familyValues, licenseValues) {
+function loadInstruments(
+  familyValues,
+  licenseValues,
+  materialValues,
+  playingMethodValues,
+  regionValues
+) {
   const instruments = new Map();
 
   for (const fileName of listJsonFiles(paths.instruments)) {
@@ -282,6 +299,24 @@ function loadInstruments(familyValues, licenseValues) {
         warn(`Instrument "${instrument.id}" field "${field}" contains duplicate values.`);
       }
     }
+
+    validateTaxonomyArray(
+      instrument.regions,
+      regionValues,
+      `Instrument "${instrument.id}" regions`
+    );
+
+    validateTaxonomyArray(
+      instrument.materials,
+      materialValues,
+      `Instrument "${instrument.id}" materials`
+    );
+
+    validateTaxonomyArray(
+      instrument.playingMethods,
+      playingMethodValues,
+      `Instrument "${instrument.id}" playingMethods`
+    );
 
     if (typeof instrument.isPercussive !== 'boolean') {
       fail(`Instrument "${instrument.id}" isPercussive must be boolean.`);
@@ -565,8 +600,17 @@ function validateReferences(instruments, packs) {
 function main() {
   const familyValues = loadTaxonomyValues('families.json');
   const licenseValues = loadTaxonomyValues('licenses.json');
+  const materialValues = loadTaxonomyValues('materials.json');
+  const playingMethodValues = loadTaxonomyValues('playing-methods.json');
+  const regionValues = loadTaxonomyValues('regions.json');
 
-  const instruments = loadInstruments(familyValues, licenseValues);
+  const instruments = loadInstruments(
+    familyValues,
+    licenseValues,
+    materialValues,
+    playingMethodValues,
+    regionValues
+  );
   const packs = loadPacks();
 
   validateReferences(instruments, packs);

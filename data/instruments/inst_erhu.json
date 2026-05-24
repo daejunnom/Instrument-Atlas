@@ -13,12 +13,12 @@
     "China"
   ],
   "materials": [
-    "Maple Wood",
-    "Python Skin",
-    "Steel Strings"
+    "Skin",
+    "Steel",
+    "Wood"
   ],
   "playingMethods": [
-    "Bowed between two strings"
+    "Bowed"
   ],
   "isPercussive": false,
   "isPitched": true,

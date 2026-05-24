@@ -8,16 +8,16 @@
     "rhythm"
   ],
   "regions": [
-    "Global",
-    "Europe"
+    "Europe",
+    "Global"
   ],
   "materials": [
-    "Wood",
-    "Metal"
+    "Metal",
+    "Wood"
   ],
   "playingMethods": [
-    "Struck",
-    "Shaken"
+    "Shaken",
+    "Struck"
   ],
   "isPercussive": true,
   "isPitched": false,

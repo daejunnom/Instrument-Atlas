@@ -15,13 +15,11 @@
     "Global"
   ],
   "materials": [
-    "Wood",
-    "Rosewood",
-    "Metal Resonators"
+    "Metal",
+    "Wood"
   ],
   "playingMethods": [
-    "Struck",
-    "Struck with Mallets"
+    "Struck"
   ],
   "isPercussive": true,
   "isPitched": true,

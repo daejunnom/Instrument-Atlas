@@ -11,9 +11,9 @@
     "Global"
   ],
   "materials": [
+    "Metal",
     "Plastic",
-    "Seeds",
-    "Metal"
+    "Seed"
   ],
   "playingMethods": [
     "Shaken"

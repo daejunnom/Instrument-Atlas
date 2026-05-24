@@ -12,11 +12,11 @@
     "Americas"
   ],
   "materials": [
-    "Aluminum",
-    "Electric Motor"
+    "Electronics",
+    "Metal"
   ],
   "playingMethods": [
-    "Struck with Mallets"
+    "Struck"
   ],
   "isPercussive": true,
   "isPitched": true,

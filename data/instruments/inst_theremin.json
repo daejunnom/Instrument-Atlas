@@ -10,15 +10,14 @@
     "spooky"
   ],
   "regions": [
-    "Russia",
-    "Global"
+    "Global",
+    "Russia"
   ],
   "materials": [
-    "Electronic Circuits",
-    "Antennas"
+    "Electronics"
   ],
   "playingMethods": [
-    "Waving hands in electromagnetic fields"
+    "Hand-controlled"
   ],
   "isPercussive": false,
   "isPitched": true,

@@ -13,12 +13,13 @@
     "Europe"
   ],
   "materials": [
-    "Wood",
-    "Quills",
-    "Metal Strings"
+    "Reed",
+    "Steel",
+    "Wood"
   ],
   "playingMethods": [
-    "Plucked via Keys"
+    "Plucked",
+    "Pressed"
   ],
   "isPercussive": false,
   "isPitched": true,

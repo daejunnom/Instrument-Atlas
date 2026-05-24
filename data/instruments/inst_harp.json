@@ -10,12 +10,12 @@
   ],
   "regions": [
     "Europe",
-    "Middle East",
-    "Global"
+    "Global",
+    "Middle East"
   ],
   "materials": [
-    "Wood",
-    "Nylon Strings"
+    "Nylon",
+    "Wood"
   ],
   "playingMethods": [
     "Plucked"

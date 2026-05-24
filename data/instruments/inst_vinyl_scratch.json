@@ -9,12 +9,12 @@
     "scratchy"
   ],
   "regions": [
-    "Global",
-    "Americas"
+    "Americas",
+    "Global"
   ],
   "materials": [
-    "Vinyl Record",
-    "Needle"
+    "Metal",
+    "Vinyl"
   ],
   "playingMethods": [
     "Scratched"

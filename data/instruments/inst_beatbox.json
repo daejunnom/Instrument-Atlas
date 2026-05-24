@@ -12,12 +12,10 @@
     "Global"
   ],
   "materials": [
-    "Vocal Chords",
-    "Mouth",
-    "Lips"
+    "Voice"
   ],
   "playingMethods": [
-    "Breathed/Spoken/Produced by speech organs"
+    "Spoken"
   ],
   "isPercussive": true,
   "isPitched": false,

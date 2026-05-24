@@ -13,11 +13,11 @@
     "Australia"
   ],
   "materials": [
-    "Eucalyptus Wood",
-    "Beeswax"
+    "Wax",
+    "Wood"
   ],
   "playingMethods": [
-    "Blown with circular breathing"
+    "Blown"
   ],
   "isPercussive": true,
   "isPitched": false,

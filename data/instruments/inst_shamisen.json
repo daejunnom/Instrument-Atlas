@@ -12,12 +12,12 @@
     "Japan"
   ],
   "materials": [
-    "Wood",
-    "Silk Strings",
-    "Skin"
+    "Skin",
+    "String",
+    "Wood"
   ],
   "playingMethods": [
-    "Plucked with Bachi"
+    "Plucked"
   ],
   "isPercussive": true,
   "isPitched": true,

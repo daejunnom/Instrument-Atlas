@@ -12,11 +12,11 @@
     "West Africa"
   ],
   "materials": [
-    "Hardwood Goblet",
-    "Goatskin"
+    "Skin",
+    "Wood"
   ],
   "playingMethods": [
-    "Struck with bare hands"
+    "Struck"
   ],
   "isPercussive": true,
   "isPitched": false,

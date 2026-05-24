@@ -10,16 +10,16 @@
     "acoustic"
   ],
   "regions": [
-    "Europe",
     "Americas",
+    "Europe",
     "Global"
   ],
   "materials": [
-    "Metal Plates",
-    "Plastic Comb"
+    "Metal",
+    "Plastic"
   ],
   "playingMethods": [
-    "Inhaled and Exhaled blown"
+    "Blown"
   ],
   "isPercussive": false,
   "isPitched": true,

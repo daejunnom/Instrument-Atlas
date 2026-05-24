@@ -14,12 +14,12 @@
     "South Asia"
   ],
   "materials": [
-    "Copper Shells",
     "Clay",
-    "Goatskin"
+    "Copper",
+    "Skin"
   ],
   "playingMethods": [
-    "Struck with fingers and palms"
+    "Struck"
   ],
   "isPercussive": true,
   "isPitched": true,

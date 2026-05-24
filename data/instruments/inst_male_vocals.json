@@ -12,11 +12,11 @@
     "Global"
   ],
   "materials": [
-    "Vocal Cords"
+    "Voice"
   ],
   "playingMethods": [
-    "Sung",
-    "Spoken"
+    "Spoken",
+    "Sung"
   ],
   "isPercussive": false,
   "isPitched": true,

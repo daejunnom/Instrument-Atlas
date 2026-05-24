@@ -10,16 +10,16 @@
     "brazilian"
   ],
   "regions": [
-    "Brazil",
-    "Angola"
+    "Angola",
+    "Brazil"
   ],
   "materials": [
-    "Biriba Wood bow",
-    "Steel string",
-    "Gourd"
+    "Gourd",
+    "Steel",
+    "Wood"
   ],
   "playingMethods": [
-    "Struck with wooden stick, metallic stone bend"
+    "Struck"
   ],
   "isPercussive": true,
   "isPitched": true,

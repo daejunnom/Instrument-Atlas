@@ -406,6 +406,9 @@ The validation script checks:
 - Source reference URL format
 - Family taxonomy values
 - Metadata license taxonomy values
+- Region taxonomy values
+- Material taxonomy values
+- Playing method taxonomy values
 - Empty packs
 - Optional `frequencyProfile` structure
 
@@ -463,6 +466,7 @@ Before opening a pull request, make sure:
 - Pack IDs are valid
 - Similar instrument references are valid
 - `metadata.license` uses a canonical value from `data/taxonomy/licenses.json`
+- `regions`, `materials`, and `playingMethods` use canonical values from `data/taxonomy/`
 - Validation passes successfully
 
 Run:

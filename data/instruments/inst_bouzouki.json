@@ -13,11 +13,11 @@
     "Greece"
   ],
   "materials": [
-    "Wood bowl-back",
-    "Steel strings"
+    "Steel",
+    "Wood"
   ],
   "playingMethods": [
-    "Plucked with plectrum"
+    "Plucked"
   ],
   "isPercussive": false,
   "isPitched": true,

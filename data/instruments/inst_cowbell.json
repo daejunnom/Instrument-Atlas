@@ -12,18 +12,16 @@
     "rock"
   ],
   "regions": [
+    "Europe",
     "Global",
-    "Latin America",
-    "Europe"
+    "Latin America"
   ],
   "materials": [
     "Metal",
-    "Iron",
     "Steel"
   ],
   "playingMethods": [
-    "Struck",
-    "Struck with Drumstick"
+    "Struck"
   ],
   "isPercussive": true,
   "isPitched": false,

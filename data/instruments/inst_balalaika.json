@@ -10,15 +10,17 @@
     "mellow-tremolo"
   ],
   "regions": [
-    "Russia",
-    "Eastern Europe"
+    "Eastern Europe",
+    "Russia"
   ],
   "materials": [
-    "Wood",
-    "Nylon / Steel Strings"
+    "Nylon",
+    "Steel",
+    "Wood"
   ],
   "playingMethods": [
-    "Finger-plucked / Strummed"
+    "Plucked",
+    "Strummed"
   ],
   "isPercussive": false,
   "isPitched": true,

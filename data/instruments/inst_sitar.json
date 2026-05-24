@@ -15,12 +15,12 @@
     "South Asia"
   ],
   "materials": [
-    "Gourd Resonator",
-    "Teak Wood",
-    "Steel Strings"
+    "Gourd",
+    "Steel",
+    "Wood"
   ],
   "playingMethods": [
-    "Plucked with Mezrab wire pick"
+    "Plucked"
   ],
   "isPercussive": false,
   "isPitched": true,

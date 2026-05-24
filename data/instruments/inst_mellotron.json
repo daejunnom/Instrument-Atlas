@@ -13,11 +13,13 @@
     "United Kingdom"
   ],
   "materials": [
-    "Magnetic Audio Tapes",
-    "Plastic Keys"
+    "Plastic",
+    "Tape"
   ],
   "playingMethods": [
-    "Pressed Keys triggering tape playback"
+    "Plucked",
+    "Pressed",
+    "Recorded"
   ],
   "isPercussive": false,
   "isPitched": true,

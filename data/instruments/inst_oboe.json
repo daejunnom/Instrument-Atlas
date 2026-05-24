@@ -17,13 +17,11 @@
     "Global"
   ],
   "materials": [
-    "Wood",
-    "Grenadilla Wood",
-    "Silver Keys"
+    "Metal",
+    "Wood"
   ],
   "playingMethods": [
-    "Blown",
-    "Blown through Double Reed"
+    "Blown"
   ],
   "isPercussive": false,
   "isPitched": true,

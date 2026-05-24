@@ -17,13 +17,13 @@
     "Polynesia"
   ],
   "materials": [
-    "Wood",
-    "Nylon Strings"
+    "Nylon",
+    "Wood"
   ],
   "playingMethods": [
-    "Strummed",
+    "Fingerpicked",
     "Plucked",
-    "Fingerpicked"
+    "Strummed"
   ],
   "isPercussive": false,
   "isPitched": true,
