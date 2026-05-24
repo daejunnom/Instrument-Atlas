@@ -114,6 +114,34 @@ function hasDuplicateStrings(values) {
   return new Set(values).size !== values.length;
 }
 
+function isSortedStrings(values) {
+  if (!Array.isArray(values)) return false;
+
+  const sorted = [...values].sort((a, b) => a.localeCompare(b));
+  return JSON.stringify(values) === JSON.stringify(sorted);
+}
+
+function validateSortedStringArray(values, context) {
+  if (!isStringArray(values)) {
+    fail(`${context} must be an array of strings.`);
+    return false;
+  }
+
+  if (values.some((value) => value.trim() === '')) {
+    fail(`${context} must not contain empty strings.`);
+  }
+
+  if (hasDuplicateStrings(values)) {
+    fail(`${context} contains duplicate values.`);
+  }
+
+  if (!isSortedStrings(values)) {
+    fail(`${context} must be sorted alphabetically.`);
+  }
+
+  return true;
+}
+
 function isValidUrlLike(value) {
   if (typeof value !== 'string') return false;
 
@@ -292,13 +320,18 @@ function loadInstruments(
       fail(`Instrument "${instrument.id}" subfamily must be null or string.`);
     }
 
-    for (const field of ['tags', 'regions', 'materials', 'playingMethods', 'similarInstruments', 'packIds']) {
+    for (const field of ['tags', 'regions', 'materials', 'playingMethods', 'similarInstruments']) {
       if (!isStringArray(instrument[field])) {
         fail(`Instrument "${instrument.id}" field "${field}" must be an array of strings.`);
       } else if (hasDuplicateStrings(instrument[field])) {
         warn(`Instrument "${instrument.id}" field "${field}" contains duplicate values.`);
       }
     }
+
+    validateSortedStringArray(
+      instrument.packIds,
+      `Instrument "${instrument.id}" packIds`
+    );
 
     validateTaxonomyArray(
       instrument.regions,
@@ -433,15 +466,9 @@ function loadPacks() {
       fail(`Pack "${pack.id}" sortOrder must be a number.`);
     }
 
-    if (!isStringArray(pack.instrumentIds)) {
-      fail(`Pack "${pack.id}" instrumentIds must be an array of strings.`);
-    } else {
+    if (validateSortedStringArray(pack.instrumentIds, `Pack "${pack.id}" instrumentIds`)) {
       if (pack.instrumentIds.length === 0) {
         fail(`Pack "${pack.id}" must not be empty.`);
-      }
-
-      if (hasDuplicateStrings(pack.instrumentIds)) {
-        fail(`Pack "${pack.id}" contains duplicate instrumentIds.`);
       }
     }
 
@@ -576,7 +603,10 @@ function validateReferences(instruments, packs) {
 
       if (!instrument.packIds.includes(pack.id)) {
         fail(
-          `Pack "${pack.id}" contains "${instrumentId}", but instrument.packIds does not include "${pack.id}".`
+          [
+            `Pack membership mismatch: pack "${pack.id}" contains "${instrumentId}",`,
+            `but instrument "${instrumentId}" packIds is [${instrument.packIds.join(', ')}].`
+          ].join(' ')
         );
       }
     }
@@ -590,7 +620,10 @@ function validateReferences(instruments, packs) {
 
       if (!pack.instrumentIds.includes(instrument.id)) {
         fail(
-          `Instrument "${instrument.id}" points to pack "${packId}", but the pack does not include it.`
+          [
+            `Pack membership mismatch: instrument "${instrument.id}" points to "${packId}",`,
+            `but pack "${packId}" instrumentIds does not contain it.`
+          ].join(' ')
         );
       }
     }

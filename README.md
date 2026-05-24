@@ -399,6 +399,8 @@ The validation script checks:
 - Locale filename and ID consistency
 - Required fields
 - Pack ID references
+- Pack membership bidirectional consistency
+- Pack and instrument membership sorting
 - Similar instrument references
 - Locale coverage
 - Missing locale names
@@ -464,6 +466,7 @@ Before opening a pull request, make sure:
 - No audio files are included
 - Locale files match existing instrument IDs
 - Pack IDs are valid
+- Pack and instrument membership lists are sorted and bidirectionally consistent
 - Similar instrument references are valid
 - `metadata.license` uses a canonical value from `data/taxonomy/licenses.json`
 - `regions`, `materials`, and `playingMethods` use canonical values from `data/taxonomy/`
