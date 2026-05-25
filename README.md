@@ -50,10 +50,10 @@ Search: acoustic guitar
 
 Result:
   id: inst_acoustic_guitar
-  family: strings
+  family: Guitars
   aliases: guitar, steel-string guitar, acoustic guitar
-  packs: band, songwriter, acoustic
-  locale-ready names: en, ko, ja, zh
+  packIds: core
+  locale-ready names: en, ko
 ```
 
 Applications can use this metadata for:
