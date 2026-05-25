@@ -41,6 +41,77 @@ Instrument Atlas is not:
 
 Actual audio files should not be added to this repository.
 
+## Quick example
+
+Instrument Atlas gives applications stable instrument IDs and searchable instrument metadata.
+
+```txt
+Search: acoustic guitar
+
+Result:
+  id: inst_acoustic_guitar
+  family: strings
+  aliases: guitar, steel-string guitar, acoustic guitar
+  packs: band, songwriter, acoustic
+  locale-ready names: en, ko, ja, zh
+```
+
+Applications can use this metadata for:
+
+```txt
+instrument search
+instrument pickers
+localized names and aliases
+taxonomy filters
+pack builders
+music education tools
+audio applications
+game audio tools
+AI music systems
+```
+
+Instrument Atlas focuses on the identity and metadata of instruments. It does not store audio files.
+
+For playable sound-source resolution, use Instrument Atlas Sounds alongside this repository.
+
+## Relationship with Instrument Atlas Sounds
+
+Instrument Atlas and Instrument Atlas Sounds are separate by design.
+
+```txt
+Instrument Atlas
+  stable instrument IDs
+  taxonomy
+  aliases
+  localization
+  packs
+  searchable metadata
+        |
+        | instrumentId
+        v
+Instrument Atlas Sounds
+  sound source manifests
+  license policies
+  resolver
+  physical modeling prototypes
+  runtime package
+```
+
+Instrument Atlas answers:
+
+```txt
+What instrument is this?
+How should it be named, searched, grouped, localized, and categorized?
+```
+
+Instrument Atlas Sounds answers:
+
+```txt
+How can this instrument ID become audible?
+Which sound source can be used under the selected license policy?
+Can it run on the client, server, or only as metadata?
+```
+
 ## Current status
 
 Instrument Atlas is in early alpha development.
