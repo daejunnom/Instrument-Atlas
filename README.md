@@ -538,3 +538,16 @@ Actual audio samples should not be included in this repository.
 Instrument Atlas is in early alpha development.
 
 The current focus is stabilizing the source data, validation pipeline, runtime build artifacts, and release package workflow before expanding the catalog further.
+
+## Feedback and contributions
+
+Feedback is welcome.
+
+Good places to start:
+
+- Open an Issue for missing instruments, aliases, packs, source candidates, or documentation improvements.
+- Look for `good first issue` labels if you want a small contribution target.
+- Use `feedback wanted` issues for schema, metadata, policy, or use-case feedback.
+
+This project is early alpha, so practical feedback from music app developers, Web Audio developers, game audio developers, sound designers, and metadata/tooling maintainers is especially useful.
+
